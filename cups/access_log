@@ -1,0 +1,13 @@
+localhost - - [31/Oct/2018:18:16:06 -0400] "POST / HTTP/1.1" 200 349 Create-Printer-Subscriptions successful-ok
+localhost - - [31/Oct/2018:18:16:06 -0400] "POST / HTTP/1.1" 200 176 Create-Printer-Subscriptions successful-ok
+localhost - - [31/Oct/2018:18:16:23 -0400] "POST / HTTP/1.1" 200 360 Create-Printer-Subscriptions successful-ok
+localhost - - [31/Oct/2018:19:14:44 -0400] "POST / HTTP/1.1" 200 183 Renew-Subscription successful-ok
+localhost - - [31/Oct/2018:20:31:41 -0400] "POST / HTTP/1.1" 200 183 Renew-Subscription client-error-not-found
+localhost - - [01/Nov/2018:13:40:56 -0400] "POST / HTTP/1.1" 200 183 Renew-Subscription client-error-not-found
+localhost - - [01/Nov/2018:14:36:21 -0400] "POST / HTTP/1.1" 200 349 Create-Printer-Subscriptions successful-ok
+localhost - - [01/Nov/2018:14:36:21 -0400] "POST / HTTP/1.1" 200 176 Create-Printer-Subscriptions successful-ok
+localhost - - [01/Nov/2018:14:36:41 -0400] "POST / HTTP/1.1" 200 360 Create-Printer-Subscriptions successful-ok
+localhost - - [01/Nov/2018:15:35:03 -0400] "POST / HTTP/1.1" 200 183 Renew-Subscription successful-ok
+localhost - - [01/Nov/2018:16:33:23 -0400] "POST / HTTP/1.1" 200 183 Renew-Subscription successful-ok
+localhost - - [01/Nov/2018:17:31:43 -0400] "POST / HTTP/1.1" 200 183 Renew-Subscription successful-ok
+localhost - - [01/Nov/2018:18:30:03 -0400] "POST / HTTP/1.1" 200 183 Renew-Subscription successful-ok

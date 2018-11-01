@@ -1,0 +1,42 @@
+[1541024737] Nagios 3.5.1 starting... (PID=20167)
+[1541024737] Local time is Wed Oct 31 18:25:37 EDT 2018
+[1541024737] LOG VERSION: 2.0
+[1541024737] Finished daemonizing... (New PID=20168)
+[1541024897] SERVICE ALERT: localhost;Disk Space;CRITICAL;SOFT;1;DISK CRITICAL - /run/user/1000/gvfs is not accessible: Permission denied
+[1541024957] SERVICE ALERT: localhost;Disk Space;CRITICAL;SOFT;2;DISK CRITICAL - /run/user/1000/gvfs is not accessible: Permission denied
+[1541024997] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;1;connect to address 127.0.0.1 and port 22: Connection refused
+[1541025017] SERVICE ALERT: localhost;Disk Space;CRITICAL;SOFT;3;DISK CRITICAL - /run/user/1000/gvfs is not accessible: Permission denied
+[1541025057] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;2;connect to address 127.0.0.1 and port 22: Connection refused
+[1541025077] SERVICE ALERT: localhost;Disk Space;CRITICAL;HARD;4;DISK CRITICAL - /run/user/1000/gvfs is not accessible: Permission denied
+[1541025077] SERVICE NOTIFICATION: root;localhost;Disk Space;CRITICAL;notify-service-by-email;DISK CRITICAL - /run/user/1000/gvfs is not accessible: Permission denied
+[1541025117] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;3;connect to address 127.0.0.1 and port 22: Connection refused
+[1541025167] Caught SIGTERM, shutting down...
+[1541025167] Successfully shutdown... (PID=20168)
+[1541025167] Nagios 3.5.1 starting... (PID=20625)
+[1541025167] Local time is Wed Oct 31 18:32:47 EDT 2018
+[1541025167] LOG VERSION: 2.0
+[1541025167] Finished daemonizing... (New PID=20626)
+[1541025177] SERVICE ALERT: localhost;SSH;CRITICAL;HARD;4;connect to address 127.0.0.1 and port 22: Connection refused
+[1541025177] SERVICE NOTIFICATION: root;localhost;SSH;CRITICAL;notify-service-by-email;connect to address 127.0.0.1 and port 22: Connection refused
+[1541028767] Auto-save of retention data completed successfully.
+[1541032367] Auto-save of retention data completed successfully.
+[1541092211] Warning: A system time change of 0d 16h 10m 56s (forwards in time) has been detected.  Compensating...
+[1541094223] Auto-save of retention data completed successfully.
+[1541097382] Nagios 3.5.1 starting... (PID=930)
+[1541097382] Local time is Thu Nov 01 14:36:22 EDT 2018
+[1541097382] LOG VERSION: 2.0
+[1541097382] Finished daemonizing... (New PID=934)
+[1541099692] SERVICE ALERT: localhost;HTTP;CRITICAL;SOFT;1;connect to address 127.0.0.1 and port 80: Connection refused
+[1541099752] SERVICE ALERT: localhost;HTTP;OK;SOFT;2;HTTP OK: HTTP/1.1 200 OK - 11192 bytes in 0.000 second response time
+[1541100982] Auto-save of retention data completed successfully.
+[1541104582] Auto-save of retention data completed successfully.
+[1541108182] Auto-save of retention data completed successfully.
+[1541109692] SERVICE ALERT: localhost;Total Processes;WARNING;SOFT;1;PROCS WARNING: 254 processes
+[1541109752] SERVICE ALERT: localhost;Total Processes;WARNING;SOFT;2;PROCS WARNING: 254 processes
+[1541109812] SERVICE ALERT: localhost;Total Processes;WARNING;SOFT;3;PROCS WARNING: 254 processes
+[1541109872] SERVICE ALERT: localhost;Total Processes;WARNING;HARD;4;PROCS WARNING: 253 processes
+[1541109872] SERVICE NOTIFICATION: root;localhost;Total Processes;WARNING;notify-service-by-email;PROCS WARNING: 253 processes
+[1541111372] SERVICE ALERT: localhost;Total Processes;OK;HARD;4;PROCS OK: 223 processes
+[1541111372] SERVICE NOTIFICATION: root;localhost;Total Processes;OK;notify-service-by-email;PROCS OK: 223 processes
+[1541114227] Warning: A system time change of 0d 0h 41m 50s (forwards in time) has been detected.  Compensating...
+[1541114292] Auto-save of retention data completed successfully.

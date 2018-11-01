@@ -1,0 +1,1151 @@
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] Linux version 4.15.0-29-generic (buildd@lgw01-amd64-057) (gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3)) #31-Ubuntu SMP Tue Jul 17 15:39:52 UTC 2018 (Ubuntu 4.15.0-29.31-generic 4.15.18)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-29-generic root=UUID=4685e3e7-efbf-410f-8f0d-bdc557809c95 ro quiet splash
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] KERNEL supported cpus:
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000]   Intel GenuineIntel
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000]   AMD AuthenticAMD
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000]   Centaur CentaurHauls
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000dffeffff] usable
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000dfff0000-0x00000000dfffffff] ACPI data
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x00000002792fffff] usable
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] NX (Execute Disable) protection: active
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] SMBIOS 2.5 present.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] Hypervisor detected: KVM
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] e820: last_pfn = 0x279300 max_arch_pfn = 0x400000000
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] MTRR default type: uncachable
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] MTRR variable ranges disabled:
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] MTRR: Disabled
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] CPU MTRRs all blank - virtualized system.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] e820: last_pfn = 0xdfff0 max_arch_pfn = 0x400000000
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] found SMP MP-table at [mem 0x0009fff0-0x0009ffff] mapped at [        (ptrval)]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] Base memory trampoline at [        (ptrval)] 99000 size 24576
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] BRK [0x18c13f000, 0x18c13ffff] PGTABLE
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] BRK [0x18c140000, 0x18c140fff] PGTABLE
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] BRK [0x18c141000, 0x18c141fff] PGTABLE
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] BRK [0x18c142000, 0x18c142fff] PGTABLE
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] BRK [0x18c143000, 0x18c143fff] PGTABLE
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] BRK [0x18c144000, 0x18c144fff] PGTABLE
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] BRK [0x18c145000, 0x18c145fff] PGTABLE
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] BRK [0x18c146000, 0x18c146fff] PGTABLE
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] BRK [0x18c147000, 0x18c147fff] PGTABLE
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] BRK [0x18c148000, 0x18c148fff] PGTABLE
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] RAMDISK: [mem 0x3189b000-0x34c44fff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] ACPI: XSDT 0x00000000DFFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] ACPI: FACP 0x00000000DFFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] ACPI: DSDT 0x00000000DFFF0470 0021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] ACPI: FACS 0x00000000DFFF0200 000040
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] ACPI: FACS 0x00000000DFFF0200 000040
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] ACPI: APIC 0x00000000DFFF0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] ACPI: SSDT 0x00000000DFFF02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] No NUMA configuration found
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x00000002792fffff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] NODE_DATA(0) allocated [mem 0x2792d5000-0x2792fffff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] kvm-clock: cpu 0, msr 2:79254001, primary cpu clock
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] kvm-clock: using sched offset of 270325381974 cycles
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] Zone ranges:
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000]   Normal   [mem 0x0000000100000000-0x00000002792fffff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000]   Device   empty
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] Movable zone start for each node
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] Early memory node ranges
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x00000000dffeffff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000]   node   0: [mem 0x0000000100000000-0x00000002792fffff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x00000002792fffff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] On node 0 totalpages: 2462350
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000]   DMA zone: 21 pages reserved
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000]   DMA32 zone: 14272 pages used for memmap
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000]   DMA32 zone: 913392 pages, LIFO batch:31
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000]   Normal zone: 24140 pages used for memmap
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000]   Normal zone: 1544960 pages, LIFO batch:31
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] Reserved but unavailable: 98 pages
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-23
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] ACPI: IRQ0 used by override.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] ACPI: IRQ9 used by override.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0xdfff0000-0xdfffffff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0xe0000000-0xfebfffff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfec00000-0xfec00fff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfec01000-0xfedfffff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfee01000-0xfffbffff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfffc0000-0xffffffff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] e820: [mem 0xe0000000-0xfebfffff] available for PCI devices
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] random: get_random_bytes called from start_kernel+0x99/0x4fd with crng_init=0
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] percpu: Embedded 46 pages/cpu @        (ptrval) s151552 r8192 d28672 u2097152
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] pcpu-alloc: s151552 r8192 d28672 u2097152 alloc=1*2097152
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] pcpu-alloc: [0] 0 
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] PV qspinlock hash table entries: 256 (order: 0, 4096 bytes)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 2423853
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] Policy zone: Normal
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-29-generic root=UUID=4685e3e7-efbf-410f-8f0d-bdc557809c95 ro quiet splash
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] Memory: 9545912K/9849400K available (12300K kernel code, 2470K rwdata, 4240K rodata, 2408K init, 2416K bss, 303488K reserved, 0K cma-reserved)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] Kernel/User page tables isolation: enabled
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.000000] ftrace: allocating 39092 entries in 153 pages
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.004000] Hierarchical RCU implementation.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.004000] 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=1.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.004000] 	Tasks RCU enabled.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.004000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.004000] NR_IRQS: 524544, nr_irqs: 256, preallocated irqs: 16
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.004000] Console: colour VGA+ 80x25
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.004000] console [tty0] enabled
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.004000] ACPI: Core revision 20170831
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.004000] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.004000] APIC: Switch to symmetric I/O mode setup
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.004000] x2apic enabled
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.004000] Switched APIC routing to physical x2apic.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.004000] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.004000] tsc: Detected 2207.998 MHz processor
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.004000] Calibrating delay loop (skipped) preset value.. 4415.99 BogoMIPS (lpj=8831992)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.004000] pid_max: default: 32768 minimum: 301
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.004000] Security Framework initialized
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.004000] Yama: becoming mindful.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.004000] AppArmor: AppArmor initialized
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.004000] Dentry cache hash table entries: 2097152 (order: 12, 16777216 bytes)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.005067] Inode-cache hash table entries: 1048576 (order: 11, 8388608 bytes)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.005098] Mount-cache hash table entries: 32768 (order: 6, 262144 bytes)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.005114] Mountpoint-cache hash table entries: 32768 (order: 6, 262144 bytes)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.005270] CPU: Physical Processor ID: 0
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.005284] mce: CPU supports 0 MCE banks
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.005293] process: using mwait in idle threads
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.005295] Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.005296] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.005297] Spectre V2 : Mitigation: Full generic retpoline
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.005297] Spectre V2 : Spectre v2 mitigation: Filling RSB on context switch
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.005298] Speculative Store Bypass: Vulnerable
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.015139] Freeing SMP alternatives memory: 36K
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] smpboot: CPU0: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz (family: 0x6, model: 0x9e, stepping: 0xa)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] Performance Events: unsupported p6 CPU model 158 no PMU driver, software events only.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] Hierarchical SRCU implementation.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] NMI watchdog: Perf event create on CPU 0 failed with -2
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] NMI watchdog: Perf NMI watchdog permanently disabled
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] smp: Bringing up secondary CPUs ...
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] smp: Brought up 1 node, 1 CPU
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] smpboot: Max logical packages: 1
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] smpboot: Total of 1 processors activated (4415.99 BogoMIPS)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] devtmpfs: initialized
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] x86/mm: Memory block size: 128MB
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] evm: security.selinux
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] evm: security.SMACK64
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] evm: security.SMACK64EXEC
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] evm: security.SMACK64TRANSMUTE
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] evm: security.SMACK64MMAP
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] evm: security.apparmor
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] evm: security.ima
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] evm: security.capability
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] futex hash table entries: 256 (order: 2, 16384 bytes)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] pinctrl core: initialized pinctrl subsystem
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] RTC time: 22:16:00, date: 10/31/18
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] NET: Registered protocol family 16
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] audit: initializing netlink subsys (disabled)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] cpuidle: using governor ladder
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] cpuidle: using governor menu
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] ACPI: bus type PCI registered
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] PCI: Using configuration type 1 for base access
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] audit: type=2000 audit(1541024431.950:1): state=initialized audit_enabled=0 res=1
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] ACPI: Added _OSI(Module Device)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] ACPI: Added _OSI(Processor Device)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] ACPI: Added _OSI(3.0 _SCP Extensions)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] ACPI: Added _OSI(Processor Aggregator Device)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] ACPI: Added _OSI(Linux-Dell-Video)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.020000] ACPI: Executed 1 blocks of module-level executable AML code
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.021028] ACPI: Interpreter enabled
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.021036] ACPI: (supports S0 S5)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.021037] ACPI: Using IOAPIC for interrupt routing
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.021195] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.021344] ACPI: Enabled 2 GPEs in block 00 to 07
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.026090] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.026093] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.026107] acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.026113] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.026444] PCI host bridge to bus 0000:00
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.026445] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.026446] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.026447] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.026448] pci_bus 0000:00: root bus resource [mem 0xe0000000-0xfdffffff window]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.026449] pci_bus 0000:00: root bus resource [bus 00-ff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.026494] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.027129] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.027931] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.028437] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.028650] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.028650] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.028651] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.028652] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.028888] pci 0000:00:02.0: [80ee:beef] type 00 class 0x030000
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.032048] pci 0000:00:02.0: reg 0x10: [mem 0xe0000000-0xe0ffffff pref]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.051697] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.052118] pci 0000:00:03.0: reg 0x10: [mem 0xf0000000-0xf001ffff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.060113] pci 0000:00:03.0: reg 0x18: [io  0xd010-0xd017]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.072482] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.076074] pci 0000:00:04.0: reg 0x10: [io  0xd020-0xd03f]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.078928] pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.080091] pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.092481] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.092658] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.092754] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.093475] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.096112] pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.116564] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.117016] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.117028] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.117347] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.120138] pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.124132] pci 0000:00:0d.0: reg 0x14: [io  0xd248-0xd24b]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.128131] pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.132130] pci 0000:00:0d.0: reg 0x1c: [io  0xd258-0xd25b]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.135221] pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.136130] pci 0000:00:0d.0: reg 0x24: [mem 0xf0806000-0xf0807fff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.141837] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.142076] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.142177] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.142277] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.142562] SCSI subsystem initialized
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.142605] libata version 3.00 loaded.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.142652] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.142654] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.144002] pci 0000:00:02.0: vgaarb: bridge control possible
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.144002] vgaarb: loaded
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.144022] ACPI: bus type USB registered
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.144032] usbcore: registered new interface driver usbfs
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.144036] usbcore: registered new interface driver hub
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.144042] usbcore: registered new device driver usb
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.144074] EDAC MC: Ver: 3.0.0
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.144547] PCI: Using ACPI for IRQ routing
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.144548] PCI: pci_cache_line_size set to 64 bytes
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.144753] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.144756] e820: reserve RAM buffer [mem 0xdfff0000-0xdfffffff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.144756] e820: reserve RAM buffer [mem 0x279300000-0x27bffffff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.144822] NetLabel: Initializing
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.144823] NetLabel:  domain hash size = 128
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.144823] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.144834] NetLabel:  unlabeled traffic allowed by default
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.144967] clocksource: Switched to clocksource kvm-clock
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.151318] VFS: Disk quotas dquot_6.6.0
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.151328] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.151391] AppArmor: AppArmor Filesystem Enabled
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.151409] pnp: PnP ACPI init
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.151463] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.151526] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.152388] pnp: PnP ACPI: found 2 devices
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.157670] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.157676] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.157678] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.157679] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.157680] pci_bus 0000:00: resource 7 [mem 0xe0000000-0xfdffffff window]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.157710] NET: Registered protocol family 2
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.158036] TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.158135] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.158183] TCP: Hash tables configured (established 131072 bind 65536)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.158201] UDP hash table entries: 8192 (order: 6, 262144 bytes)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.158436] UDP-Lite hash table entries: 8192 (order: 6, 262144 bytes)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.158471] NET: Registered protocol family 1
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.158480] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.158508] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.158562] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.159635] PCI: CLS 0 bytes, default 64
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.159658] Unpacking initramfs...
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.640079] Freeing initrd memory: 52904K
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.640079] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.640079] software IO TLB [mem 0xdbff0000-0xdfff0000] (64MB) mapped at [        (ptrval)-        (ptrval)]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.643541] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.643555] Scanning for low memory corruption every 60 seconds
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.643884] Initialise system trusted keyrings
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.643890] Key type blacklist registered
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.643914] workingset: timestamp_bits=36 max_order=22 bucket_order=0
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.644544] zbud: loaded
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.644841] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.644909] fuse init (API version 7.26)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.645366] Key type asymmetric registered
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.645366] Asymmetric key parser 'x509' registered
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.645383] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 246)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.645399] io scheduler noop registered
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.645399] io scheduler deadline registered
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.645424] io scheduler cfq registered (default)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.645793] ACPI: AC Adapter [AC] (off-line)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.645828] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.645840] ACPI: Power Button [PWRF]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.645907] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.645913] ACPI: Sleep Button [SLPF]
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.647161] ACPI: Battery Slot [BAT0] (battery present)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.647182] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.648039] Linux agpgart interface v0.103
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.648672] loop: module loaded
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.648733] ata_piix 0000:00:01.1: version 2.13
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.648995] scsi host0: ata_piix
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.649030] scsi host1: ata_piix
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.649045] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.649046] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.649083] libphy: Fixed MDIO Bus: probed
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.649083] tun: Universal TUN/TAP device driver, 1.6
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.649375] PPP generic driver version 2.4.2
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.649398] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.649400] ehci-pci: EHCI PCI platform driver
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.649405] ehci-platform: EHCI generic platform driver
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.649408] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.649409] ohci-pci: OHCI PCI platform driver
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.649985] ohci-pci 0000:00:06.0: OHCI PCI host controller
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.649989] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.650033] ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.709723] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.709725] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.709726] usb usb1: Product: OHCI PCI host controller
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.709727] usb usb1: Manufacturer: Linux 4.15.0-29-generic ohci_hcd
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.709729] usb usb1: SerialNumber: 0000:00:06.0
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.709840] hub 1-0:1.0: USB hub found
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.709854] hub 1-0:1.0: 12 ports detected
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.710235] ohci-platform: OHCI generic platform driver
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.710244] uhci_hcd: USB Universal Host Controller Interface driver
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.710320] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.710693] serio: i8042 KBD port at 0x60,0x64 irq 1
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.710696] serio: i8042 AUX port at 0x60,0x64 irq 12
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.710766] mousedev: PS/2 mouse device common for all mice
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.710955] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.711243] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.711284] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.711288] i2c /dev entries driver
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.711327] device-mapper: uevent: version 1.0.3
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.711362] device-mapper: ioctl: 4.37.0-ioctl (2017-09-20) initialised: dm-devel@redhat.com
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.711368] ledtrig-cpu: registered to indicate activity on CPUs
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.711480] intel_pmc_core:  initialized
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.711606] NET: Registered protocol family 10
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.714822] Segment Routing with IPv6
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.714841] NET: Registered protocol family 17
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.714865] Key type dns_resolver registered
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.714949] RAS: Correctable Errors collector initialized.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.714961] sched_clock: Marking stable (712211279, 0)->(915558778, -203347499)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.715059] registered taskstats version 1
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.715065] Loading compiled-in X.509 certificates
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.716526] Loaded X.509 cert 'Build time autogenerated kernel key: 1cc37f41791529df57507d3747a6804ab53f482b'
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.716540] zswap: loaded using pool lzo/zbud
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.718421] Key type big_key registered
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.718423] Key type trusted registered
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.719301] Key type encrypted registered
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.719302] AppArmor: AppArmor sha1 policy hashing enabled
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.719308] ima: No TPM chip found, activating TPM-bypass! (rc=-19)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.719319] evm: HMAC attrs: 0x1
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.719593]   Magic number: 6:410:301
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.719612] tty tty30: hash matches
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.719658] rtc_cmos rtc_cmos: setting system clock to 2018-10-31 22:16:01 UTC (1541024161)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.719703] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.719703] EDD information not available.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.809303] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.810286] ata2.00: configured for UDMA/33
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.810899] scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.832922] sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.832925] cdrom: Uniform CD-ROM driver Revision: 3.20
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.833046] sr 1:0:0:0: Attached scsi CD-ROM sr0
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.833238] sr 1:0:0:0: Attached scsi generic sg0 type 5
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.836103] Freeing unused kernel memory: 2408K
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.844706] Write protecting the kernel read-only data: 20480k
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.845429] Freeing unused kernel memory: 2008K
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.849364] Freeing unused kernel memory: 1904K
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.854382] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.854383] x86/mm: Checking user space page tables
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.858989] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.924074] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.924118] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input4
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.939294] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Oct 31 18:16:04 asim-VirtualBox kernel: [    0.939294] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.104275] usb 1-1: new full-speed USB device number 2 using ohci-pci
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.149669] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.334776] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:f3:3c:43
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.334780] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.334902] piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.335081] ahci 0000:00:0d.0: version 3.0
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.335710] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.335855] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.335857] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.337276] e1000 0000:00:03.0 enp0s3: renamed from eth0
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.338153] scsi host2: ahci
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.338191] ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.420375] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.420377] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.420378] usb 1-1: Product: USB Tablet
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.420379] usb 1-1: Manufacturer: VirtualBox
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.426670] hidraw: raw HID events driver (C) Jiri Kosina
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.437108] usbcore: registered new interface driver usbhid
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.437110] usbhid: USB HID core driver
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.437566] random: fast init done
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.437626] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.437635] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.437642] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.437665] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.437819] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.437827] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.437865] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.438870] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.438881] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.438885] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.439210] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input6
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.439420] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.651095] ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.651318] ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.651320] ata3.00: 62914560 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.651585] ata3.00: configured for UDMA/133
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.651726] scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.651902] sd 2:0:0:0: [sda] 62914560 512-byte logical blocks: (32.2 GB/30.0 GiB)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.651909] sd 2:0:0:0: [sda] Write Protect is off
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.651910] sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.651920] sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.652069] sd 2:0:0:0: Attached scsi generic sg1 type 0
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.653827]  sda: sda1 sda2 < sda5 >
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.654042] sd 2:0:0:0: [sda] Attached SCSI disk
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.664376] tsc: Refined TSC clocksource calibration: 2207.134 MHz
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.664379] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x1fd08619038, max_idle_ns: 440795246737 ns
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.714961] EXT4-fs (sda5): mounted filesystem with ordered data mode. Opts: (null)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    1.830774] ip_tables: (C) 2000-2006 Netfilter Core Team
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.075072] EXT4-fs (sda5): re-mounted. Opts: errors=remount-ro
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.127953] Adding 619624k swap on /swapfile.  Priority:-2 extents:3 across:636008k FS
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.144760] lp: driver loaded but no devices found
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.157501] ppdev: user-space parallel port driver
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.461674] vboxvideo: module is from the staging directory, the quality is unknown, you have been warned.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.461689] vboxvideo: module verification failed: signature and/or required key missing - tainting kernel
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.462494] [drm] VRAM 01000000
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.465624] [TTM] Zone  kernel: Available graphics memory: 4802586 kiB
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.465625] [TTM] Zone   dma32: Available graphics memory: 2097152 kiB
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.465625] [TTM] Initializing pool allocator
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.465627] [TTM] Initializing DMA pool allocator
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.466830] fbcon: vboxdrmfb (fb0) is primary device
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.468250] Console: switching to colour frame buffer device 100x37
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.469096] vboxvideo 0000:00:02.0: fb0: vboxdrmfb frame buffer device
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.469104] [drm] Initialized vboxvideo 1.0.0 20130823 for 0000:00:02.0 on minor 0
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.513032] vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.513088] input: Unspecified device as /devices/pci0000:00/0000:00:04.0/input/input7
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.513174] vboxguest: misc device minor 55, IRQ 20, I/O port d020, MMIO at 00000000f0400000 (size 0x400000)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.513174] vboxguest: Successfully loaded version 5.2.8_KernelUbuntu (interface 0x00010004)
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.643861] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 10737418240 ms ovfl timer
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.643862] RAPL PMU: hw unit of domain pp0-core 2^-0 Joules
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.643862] RAPL PMU: hw unit of domain package 2^-0 Joules
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.643863] RAPL PMU: hw unit of domain dram 2^-0 Joules
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.643863] RAPL PMU: hw unit of domain pp1-gpu 2^-0 Joules
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.643864] RAPL PMU: hw unit of domain psys 2^-0 Joules
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.696075] audit: type=1400 audit(1541024163.472:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=359 comm="apparmor_parser"
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.696077] audit: type=1400 audit(1541024163.472:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=359 comm="apparmor_parser"
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.696079] audit: type=1400 audit(1541024163.472:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=359 comm="apparmor_parser"
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.696080] audit: type=1400 audit(1541024163.472:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=359 comm="apparmor_parser"
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.703904] AVX2 version of gcm_enc/dec engaged.
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.703905] AES CTR mode by8 optimization enabled
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.753246] audit: type=1400 audit(1541024163.528:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince" pid=361 comm="apparmor_parser"
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.753248] audit: type=1400 audit(1541024163.528:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince//sanitized_helper" pid=361 comm="apparmor_parser"
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.753250] audit: type=1400 audit(1541024163.528:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-previewer" pid=361 comm="apparmor_parser"
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.753251] audit: type=1400 audit(1541024163.528:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-previewer//sanitized_helper" pid=361 comm="apparmor_parser"
+Oct 31 18:16:04 asim-VirtualBox kernel: [    2.753252] audit: type=1400 audit(1541024163.528:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-thumbnailer" pid=361 comm="apparmor_parser"
+Oct 31 18:16:05 asim-VirtualBox kernel: [    4.780949] snd_intel8x0 0000:00:05.0: white list rate for 1028:0177 is 48000
+Oct 31 18:16:05 asim-VirtualBox kernel: [    4.978507] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Oct 31 18:16:05 asim-VirtualBox kernel: [    4.982184] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Oct 31 18:16:05 asim-VirtualBox kernel: [    4.984185] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 18:16:05 asim-VirtualBox kernel: [    4.984436] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Oct 31 18:16:10 asim-VirtualBox kernel: [    9.671689] random: crng init done
+Oct 31 18:16:14 asim-VirtualBox kernel: [   14.019335] kauditd_printk_skb: 18 callbacks suppressed
+Oct 31 18:16:14 asim-VirtualBox kernel: [   14.019336] audit: type=1400 audit(1541024174.796:29): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.core" pid=1086 comm="apparmor_parser"
+Oct 31 18:16:14 asim-VirtualBox kernel: [   14.109170] audit: type=1400 audit(1541024174.884:30): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.core.hook.configure" pid=1088 comm="apparmor_parser"
+Oct 31 18:16:23 asim-VirtualBox kernel: [   22.754974] rfkill: input handler disabled
+Oct 31 18:16:52 asim-VirtualBox kernel: [   51.361550] e1000: enp0s3 NIC Link is Down
+Oct 31 18:16:52 asim-VirtualBox kernel: [   51.361608] e1000 0000:00:03.0 enp0s3: Reset adapter
+Oct 31 18:16:54 asim-VirtualBox kernel: [   53.440525] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 18:16:56 asim-VirtualBox kernel: [   55.456917] e1000: enp0s3 NIC Link is Down
+Oct 31 18:16:56 asim-VirtualBox kernel: [   55.457107] e1000 0000:00:03.0 enp0s3: Reset adapter
+Oct 31 18:16:57 asim-VirtualBox kernel: [   56.374122] audit: type=1400 audit(1541024217.148:31): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/4917/usr/lib/snapd/snap-confine" pid=1781 comm="apparmor_parser"
+Oct 31 18:16:57 asim-VirtualBox kernel: [   56.374387] audit: type=1400 audit(1541024217.148:32): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/4917/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1781 comm="apparmor_parser"
+Oct 31 18:16:57 asim-VirtualBox kernel: [   56.381929] audit: type=1400 audit(1541024217.160:33): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=1783 comm="apparmor_parser"
+Oct 31 18:16:57 asim-VirtualBox kernel: [   56.501280] audit: type=1400 audit(1541024217.276:34): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.core.hook.configure" pid=1785 comm="apparmor_parser"
+Oct 31 18:16:57 asim-VirtualBox kernel: [   56.554087] audit: type=1400 audit(1541024217.332:35): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/core/4917/usr/lib/snapd/snap-confine" pid=1791 comm="apparmor_parser"
+Oct 31 18:16:57 asim-VirtualBox kernel: [   56.554179] audit: type=1400 audit(1541024217.332:36): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/core/4917/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1791 comm="apparmor_parser"
+Oct 31 18:16:57 asim-VirtualBox kernel: [   56.555900] audit: type=1400 audit(1541024217.332:37): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=1793 comm="apparmor_parser"
+Oct 31 18:16:57 asim-VirtualBox kernel: [   56.568711] audit: type=1400 audit(1541024217.348:38): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.core.hook.configure" pid=1795 comm="apparmor_parser"
+Oct 31 18:16:58 asim-VirtualBox kernel: [   57.536825] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 18:17:00 asim-VirtualBox kernel: [   60.202913] audit: type=1400 audit(1541024220.976:39): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.gnome-calculator" pid=1982 comm="apparmor_parser"
+Oct 31 18:17:01 asim-VirtualBox kernel: [   60.308677] audit: type=1400 audit(1541024221.088:40): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.gnome-calculator.gnome-calculator" pid=1984 comm="apparmor_parser"
+Oct 31 18:17:02 asim-VirtualBox kernel: [   61.407175] kauditd_printk_skb: 8 callbacks suppressed
+Oct 31 18:17:02 asim-VirtualBox kernel: [   61.407176] audit: type=1400 audit(1541024222.184:49): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-calculator" pid=2027 comm="apparmor_parser"
+Oct 31 18:17:02 asim-VirtualBox kernel: [   61.600624] audit: type=1400 audit(1541024222.376:50): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-calculator.gnome-calculator" pid=2032 comm="apparmor_parser"
+Oct 31 18:17:02 asim-VirtualBox kernel: [   61.712044] audit: type=1400 audit(1541024222.488:51): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/4917/usr/lib/snapd/snap-confine" pid=2055 comm="apparmor_parser"
+Oct 31 18:17:02 asim-VirtualBox kernel: [   61.712046] audit: type=1400 audit(1541024222.488:52): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/4917/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=2055 comm="apparmor_parser"
+Oct 31 18:17:02 asim-VirtualBox kernel: [   61.724406] audit: type=1400 audit(1541024222.500:53): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=2057 comm="apparmor_parser"
+Oct 31 18:17:02 asim-VirtualBox kernel: [   61.736158] audit: type=1400 audit(1541024222.512:54): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.core.hook.configure" pid=2059 comm="apparmor_parser"
+Oct 31 18:17:02 asim-VirtualBox kernel: [   61.807880] audit: type=1400 audit(1541024222.584:55): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-calculator" pid=2065 comm="apparmor_parser"
+Oct 31 18:17:02 asim-VirtualBox kernel: [   61.949774] audit: type=1400 audit(1541024222.728:56): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-calculator.gnome-calculator" pid=2067 comm="apparmor_parser"
+Oct 31 18:17:02 asim-VirtualBox kernel: [   62.173953] audit: type=1400 audit(1541024222.944:57): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-calculator" pid=2073 comm="apparmor_parser"
+Oct 31 18:17:03 asim-VirtualBox kernel: [   62.314800] audit: type=1400 audit(1541024223.092:58): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-calculator.gnome-calculator" pid=2075 comm="apparmor_parser"
+Oct 31 18:17:08 asim-VirtualBox kernel: [   66.426762] kauditd_printk_skb: 53 callbacks suppressed
+Oct 31 18:17:08 asim-VirtualBox kernel: [   66.426763] audit: type=1400 audit(1541024228.074:112): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-characters.gnome-characters" pid=2309 comm="apparmor_parser"
+Oct 31 18:17:08 asim-VirtualBox kernel: [   66.471889] audit: type=1400 audit(1541024228.118:113): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/4917/usr/lib/snapd/snap-confine" pid=2315 comm="apparmor_parser"
+Oct 31 18:17:08 asim-VirtualBox kernel: [   66.471892] audit: type=1400 audit(1541024228.118:114): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/4917/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=2315 comm="apparmor_parser"
+Oct 31 18:17:08 asim-VirtualBox kernel: [   66.474311] audit: type=1400 audit(1541024228.118:115): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=2317 comm="apparmor_parser"
+Oct 31 18:17:08 asim-VirtualBox kernel: [   66.481802] audit: type=1400 audit(1541024228.130:116): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.core.hook.configure" pid=2319 comm="apparmor_parser"
+Oct 31 18:17:08 asim-VirtualBox kernel: [   66.519972] audit: type=1400 audit(1541024228.166:117): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-characters" pid=2325 comm="apparmor_parser"
+Oct 31 18:17:08 asim-VirtualBox kernel: [   66.665713] audit: type=1400 audit(1541024228.314:118): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-characters.gnome-characters" pid=2327 comm="apparmor_parser"
+Oct 31 18:17:08 asim-VirtualBox kernel: [   66.784548] audit: type=1400 audit(1541024228.434:119): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/4917/usr/lib/snapd/snap-confine" pid=2355 comm="apparmor_parser"
+Oct 31 18:17:08 asim-VirtualBox kernel: [   66.784550] audit: type=1400 audit(1541024228.434:120): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/4917/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=2355 comm="apparmor_parser"
+Oct 31 18:17:08 asim-VirtualBox kernel: [   66.810609] audit: type=1400 audit(1541024228.458:121): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=2358 comm="apparmor_parser"
+Oct 31 18:17:13 asim-VirtualBox kernel: [   71.593220] kauditd_printk_skb: 50 callbacks suppressed
+Oct 31 18:17:13 asim-VirtualBox kernel: [   71.593221] audit: type=1400 audit(1541024233.238:172): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-logs.gnome-logs" pid=2578 comm="apparmor_parser"
+Oct 31 18:17:13 asim-VirtualBox kernel: [   71.659646] audit: type=1400 audit(1541024233.306:173): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/4917/usr/lib/snapd/snap-confine" pid=2584 comm="apparmor_parser"
+Oct 31 18:17:13 asim-VirtualBox kernel: [   71.659648] audit: type=1400 audit(1541024233.306:174): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/4917/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=2584 comm="apparmor_parser"
+Oct 31 18:17:13 asim-VirtualBox kernel: [   71.670267] audit: type=1400 audit(1541024233.318:175): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=2586 comm="apparmor_parser"
+Oct 31 18:17:13 asim-VirtualBox kernel: [   71.676996] audit: type=1400 audit(1541024233.326:176): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.core.hook.configure" pid=2588 comm="apparmor_parser"
+Oct 31 18:17:13 asim-VirtualBox kernel: [   71.803529] audit: type=1400 audit(1541024233.446:177): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-logs" pid=2594 comm="apparmor_parser"
+Oct 31 18:17:13 asim-VirtualBox kernel: [   71.950424] audit: type=1400 audit(1541024233.594:178): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-logs.gnome-logs" pid=2596 comm="apparmor_parser"
+Oct 31 18:17:13 asim-VirtualBox kernel: [   72.190578] audit: type=1400 audit(1541024233.838:179): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-logs" pid=2602 comm="apparmor_parser"
+Oct 31 18:17:14 asim-VirtualBox kernel: [   72.366055] audit: type=1400 audit(1541024234.014:180): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-logs.gnome-logs" pid=2604 comm="apparmor_parser"
+Oct 31 18:17:14 asim-VirtualBox kernel: [   72.432623] audit: type=1400 audit(1541024234.082:181): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/4917/usr/lib/snapd/snap-confine" pid=2610 comm="apparmor_parser"
+Oct 31 18:17:18 asim-VirtualBox kernel: [   76.683816] kauditd_printk_skb: 62 callbacks suppressed
+Oct 31 18:17:18 asim-VirtualBox kernel: [   76.683817] audit: type=1400 audit(1541024238.326:244): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-system-monitor.gnome-system-monitor" pid=2860 comm="apparmor_parser"
+Oct 31 18:17:18 asim-VirtualBox kernel: [   76.748948] audit: type=1400 audit(1541024238.394:245): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/4917/usr/lib/snapd/snap-confine" pid=2866 comm="apparmor_parser"
+Oct 31 18:17:18 asim-VirtualBox kernel: [   76.748950] audit: type=1400 audit(1541024238.394:246): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/4917/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=2866 comm="apparmor_parser"
+Oct 31 18:17:18 asim-VirtualBox kernel: [   76.750784] audit: type=1400 audit(1541024238.394:247): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=2868 comm="apparmor_parser"
+Oct 31 18:17:18 asim-VirtualBox kernel: [   76.752810] audit: type=1400 audit(1541024238.394:248): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.core.hook.configure" pid=2870 comm="apparmor_parser"
+Oct 31 18:17:18 asim-VirtualBox kernel: [   76.866493] audit: type=1400 audit(1541024238.514:249): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-system-monitor" pid=2876 comm="apparmor_parser"
+Oct 31 18:17:18 asim-VirtualBox kernel: [   77.060078] audit: type=1400 audit(1541024238.706:250): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-system-monitor.gnome-system-monitor" pid=2878 comm="apparmor_parser"
+Oct 31 18:17:18 asim-VirtualBox kernel: [   77.132342] audit: type=1400 audit(1541024238.778:251): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/4917/usr/lib/snapd/snap-confine" pid=2884 comm="apparmor_parser"
+Oct 31 18:17:18 asim-VirtualBox kernel: [   77.132344] audit: type=1400 audit(1541024238.778:252): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/4917/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=2884 comm="apparmor_parser"
+Oct 31 18:17:18 asim-VirtualBox kernel: [   77.134287] audit: type=1400 audit(1541024238.778:253): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=2886 comm="apparmor_parser"
+Oct 31 18:20:00 asim-VirtualBox kernel: [  239.311907] kauditd_printk_skb: 11 callbacks suppressed
+Oct 31 18:20:00 asim-VirtualBox kernel: [  239.311908] audit: type=1400 audit(1541024400.948:265): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/sbin/dhclient" pid=8343 comm="apparmor_parser"
+Oct 31 18:20:00 asim-VirtualBox kernel: [  239.312446] audit: type=1400 audit(1541024400.956:266): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=8343 comm="apparmor_parser"
+Oct 31 18:20:00 asim-VirtualBox kernel: [  239.312717] audit: type=1400 audit(1541024400.956:267): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=8343 comm="apparmor_parser"
+Oct 31 18:20:00 asim-VirtualBox kernel: [  239.312969] audit: type=1400 audit(1541024400.956:268): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=8343 comm="apparmor_parser"
+Oct 31 18:20:02 asim-VirtualBox kernel: [  240.798933] audit: type=1400 audit(1541024402.440:269): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/bin/evince" pid=8345 comm="apparmor_parser"
+Oct 31 18:20:02 asim-VirtualBox kernel: [  240.799405] audit: type=1400 audit(1541024402.440:270): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/bin/evince//sanitized_helper" pid=8345 comm="apparmor_parser"
+Oct 31 18:20:02 asim-VirtualBox kernel: [  240.800195] audit: type=1400 audit(1541024402.440:271): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/bin/evince-previewer" pid=8345 comm="apparmor_parser"
+Oct 31 18:20:02 asim-VirtualBox kernel: [  240.800510] audit: type=1400 audit(1541024402.440:272): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/bin/evince-previewer//sanitized_helper" pid=8345 comm="apparmor_parser"
+Oct 31 18:20:02 asim-VirtualBox kernel: [  240.801190] audit: type=1400 audit(1541024402.440:273): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/bin/evince-thumbnailer" pid=8345 comm="apparmor_parser"
+Oct 31 18:20:02 asim-VirtualBox kernel: [  240.801507] audit: type=1400 audit(1541024402.440:274): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/bin/evince-thumbnailer//sanitized_helper" pid=8345 comm="apparmor_parser"
+Oct 31 18:20:17 asim-VirtualBox kernel: [  255.541320] kauditd_printk_skb: 29 callbacks suppressed
+Oct 31 18:20:17 asim-VirtualBox kernel: [  255.541321] audit: type=1400 audit(1541024417.183:304): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/usr/bin/man" pid=12694 comm="apparmor_parser"
+Oct 31 18:20:17 asim-VirtualBox kernel: [  255.541618] audit: type=1400 audit(1541024417.183:305): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="man_filter" pid=12694 comm="apparmor_parser"
+Oct 31 18:20:17 asim-VirtualBox kernel: [  255.541872] audit: type=1400 audit(1541024417.183:306): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="man_groff" pid=12694 comm="apparmor_parser"
+Oct 31 18:20:19 asim-VirtualBox kernel: [  257.967751] SGI XFS with ACLs, security attributes, realtime, no debug enabled
+Oct 31 18:20:19 asim-VirtualBox kernel: [  257.979534] JFS: nTxBlock = 8192, nTxLock = 65536
+Oct 31 18:20:19 asim-VirtualBox kernel: [  257.994340] ntfs: driver 2.1.32 [Flags: R/O MODULE].
+Oct 31 18:20:19 asim-VirtualBox kernel: [  258.017485] QNX4 filesystem 0.2.3 registered.
+Oct 31 18:20:20 asim-VirtualBox kernel: [  258.078885] raid6: sse2x1   gen() 13720 MB/s
+Oct 31 18:20:20 asim-VirtualBox kernel: [  258.128885] raid6: sse2x1   xor()  9745 MB/s
+Oct 31 18:20:20 asim-VirtualBox kernel: [  258.176075] raid6: sse2x2   gen() 17548 MB/s
+Oct 31 18:20:20 asim-VirtualBox kernel: [  258.226620] raid6: sse2x2   xor() 12498 MB/s
+Oct 31 18:20:20 asim-VirtualBox kernel: [  258.271386] raid6: sse2x4   gen() 19297 MB/s
+Oct 31 18:20:20 asim-VirtualBox kernel: [  258.318906] raid6: sse2x4   xor() 11835 MB/s
+Oct 31 18:20:20 asim-VirtualBox kernel: [  258.366710] raid6: avx2x1   gen() 26213 MB/s
+Oct 31 18:20:20 asim-VirtualBox kernel: [  258.415867] raid6: avx2x1   xor() 20137 MB/s
+Oct 31 18:20:20 asim-VirtualBox kernel: [  258.463174] raid6: avx2x2   gen() 35586 MB/s
+Oct 31 18:20:20 asim-VirtualBox kernel: [  258.511416] raid6: avx2x2   xor() 21086 MB/s
+Oct 31 18:20:20 asim-VirtualBox kernel: [  258.558926] raid6: avx2x4   gen() 38653 MB/s
+Oct 31 18:20:20 asim-VirtualBox kernel: [  258.608931] raid6: avx2x4   xor() 23330 MB/s
+Oct 31 18:20:20 asim-VirtualBox kernel: [  258.608932] raid6: using algorithm avx2x4 gen() 38653 MB/s
+Oct 31 18:20:20 asim-VirtualBox kernel: [  258.608933] raid6: .... xor() 23330 MB/s, rmw enabled
+Oct 31 18:20:20 asim-VirtualBox kernel: [  258.608933] raid6: using avx2x2 recovery algorithm
+Oct 31 18:20:20 asim-VirtualBox kernel: [  258.621261] xor: automatically using best checksumming function   avx       
+Oct 31 18:20:20 asim-VirtualBox kernel: [  258.643492] Btrfs loaded, crc32c=crc32c-intel
+Oct 31 18:20:40 asim-VirtualBox kernel: [  278.599112] audit: type=1400 audit(1541024440.239:307): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="libreoffice-oopslash" pid=17210 comm="apparmor_parser"
+Oct 31 18:20:40 asim-VirtualBox kernel: [  278.618565] audit: type=1400 audit(1541024440.255:308): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="libreoffice-senddoc" pid=17214 comm="apparmor_parser"
+Oct 31 18:20:40 asim-VirtualBox kernel: [  278.995398] audit: type=1400 audit(1541024440.635:309): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="libreoffice-soffice" pid=17218 comm="apparmor_parser"
+Oct 31 18:20:40 asim-VirtualBox kernel: [  278.995836] audit: type=1400 audit(1541024440.635:310): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="libreoffice-soffice//gpg" pid=17218 comm="apparmor_parser"
+Oct 31 18:20:40 asim-VirtualBox kernel: [  279.013976] audit: type=1400 audit(1541024440.655:311): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="libreoffice-xpdfimport" pid=17222 comm="apparmor_parser"
+Oct 31 18:35:01 asim-VirtualBox kernel: [ 1139.855850] audit: type=1400 audit(1541025301.478:312): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/mysqld" pid=22491 comm="apparmor_parser"
+Oct 31 18:35:05 asim-VirtualBox kernel: [ 1143.500101] audit: type=1400 audit(1541025305.122:313): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=22572 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Oct 31 18:35:05 asim-VirtualBox kernel: [ 1143.505394] audit: type=1400 audit(1541025305.130:314): apparmor="DENIED" operation="capable" profile="/usr/sbin/mysqld" pid=22572 comm="mysqld" capability=2  capname="dac_read_search"
+Oct 31 18:35:05 asim-VirtualBox kernel: [ 1143.514679] audit: type=1400 audit(1541025305.134:315): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=22574 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=124 ouid=0
+Oct 31 19:09:44 asim-VirtualBox kernel: [ 3222.631212] e1000: enp0s3 NIC Link is Down
+Oct 31 19:09:46 asim-VirtualBox kernel: [ 3224.647652] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 19:09:48 asim-VirtualBox kernel: [ 3226.663185] e1000: enp0s3 NIC Link is Down
+Oct 31 19:09:52 asim-VirtualBox kernel: [ 3230.694838] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 19:09:54 asim-VirtualBox kernel: [ 3232.710854] e1000: enp0s3 NIC Link is Down
+Oct 31 19:09:56 asim-VirtualBox kernel: [ 3234.727692] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 19:10:00 asim-VirtualBox kernel: [ 3238.758706] e1000: enp0s3 NIC Link is Down
+Oct 31 19:10:02 asim-VirtualBox kernel: [ 3240.774826] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 19:10:04 asim-VirtualBox kernel: [ 3242.790648] e1000: enp0s3 NIC Link is Down
+Oct 31 19:10:06 asim-VirtualBox kernel: [ 3244.807527] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 19:29:27 asim-VirtualBox kernel: [ 4406.013060] e1000: enp0s3 NIC Link is Down
+Oct 31 19:29:31 asim-VirtualBox kernel: [ 4410.045975] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 19:29:33 asim-VirtualBox kernel: [ 4412.061852] e1000: enp0s3 NIC Link is Down
+Oct 31 19:29:37 asim-VirtualBox kernel: [ 4416.093517] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 19:30:26 asim-VirtualBox kernel: [ 4464.477584] e1000: enp0s3 NIC Link is Down
+Oct 31 19:30:28 asim-VirtualBox kernel: [ 4466.492103] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 19:54:35 asim-VirtualBox kernel: [ 5416.084404] e1000: enp0s3 NIC Link is Down
+Oct 31 19:54:37 asim-VirtualBox kernel: [ 5418.101720] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 19:54:43 asim-VirtualBox kernel: [ 5424.149270] e1000: enp0s3 NIC Link is Down
+Oct 31 19:54:45 asim-VirtualBox kernel: [ 5426.165793] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 19:54:57 asim-VirtualBox kernel: [ 5438.260871] e1000: enp0s3 NIC Link is Down
+Oct 31 19:55:09 asim-VirtualBox kernel: [ 5450.357043] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 20:24:33 asim-VirtualBox kernel: [ 6617.608376] e1000: enp0s3 NIC Link is Down
+Oct 31 20:24:37 asim-VirtualBox kernel: [ 6621.641768] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 20:24:39 asim-VirtualBox kernel: [ 6623.656565] e1000: enp0s3 NIC Link is Down
+Oct 31 20:24:43 asim-VirtualBox kernel: [ 6627.688938] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 20:24:53 asim-VirtualBox kernel: [ 6637.768464] e1000: enp0s3 NIC Link is Down
+Oct 31 20:24:57 asim-VirtualBox kernel: [ 6641.800559] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 20:25:01 asim-VirtualBox kernel: [ 6645.832026] e1000: enp0s3 NIC Link is Down
+Oct 31 20:25:13 asim-VirtualBox kernel: [ 6657.928895] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 20:49:29 asim-VirtualBox kernel: [ 8091.294103] e1000: enp0s3 NIC Link is Down
+Oct 31 20:49:31 asim-VirtualBox kernel: [ 8093.309949] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 20:49:33 asim-VirtualBox kernel: [ 8095.325764] e1000: enp0s3 NIC Link is Down
+Oct 31 20:49:33 asim-VirtualBox kernel: [ 8095.325815] e1000 0000:00:03.0 enp0s3: Reset adapter
+Oct 31 20:49:35 asim-VirtualBox kernel: [ 8097.406006] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 20:50:42 asim-VirtualBox kernel: [ 8163.932146] e1000: enp0s3 NIC Link is Down
+Oct 31 20:50:44 asim-VirtualBox kernel: [ 8165.948952] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 20:50:46 asim-VirtualBox kernel: [ 8167.965377] e1000: enp0s3 NIC Link is Down
+Oct 31 20:50:50 asim-VirtualBox kernel: [ 8171.996987] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 31 20:50:56 asim-VirtualBox kernel: [ 8178.044210] e1000: enp0s3 NIC Link is Down
+Oct 31 20:51:00 asim-VirtualBox kernel: [ 8182.076628] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+                                                                                                                                                                                                                                                                                                                      Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] Linux version 4.15.0-38-generic (buildd@lcy01-amd64-023) (gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3)) #41-Ubuntu SMP Wed Oct 10 10:59:38 UTC 2018 (Ubuntu 4.15.0-38.41-generic 4.15.18)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-38-generic root=UUID=4685e3e7-efbf-410f-8f0d-bdc557809c95 ro quiet splash
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] KERNEL supported cpus:
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000]   Intel GenuineIntel
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000]   AMD AuthenticAMD
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000]   Centaur CentaurHauls
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000dffeffff] usable
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000dfff0000-0x00000000dfffffff] ACPI data
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x00000002792fffff] usable
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] NX (Execute Disable) protection: active
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] SMBIOS 2.5 present.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] Hypervisor detected: KVM
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] e820: last_pfn = 0x279300 max_arch_pfn = 0x400000000
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] MTRR default type: uncachable
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] MTRR variable ranges disabled:
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] MTRR: Disabled
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] CPU MTRRs all blank - virtualized system.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] e820: last_pfn = 0xdfff0 max_arch_pfn = 0x400000000
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] found SMP MP-table at [mem 0x0009fff0-0x0009ffff] mapped at [        (ptrval)]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] Base memory trampoline at [        (ptrval)] 99000 size 24576
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] BRK [0x26613f000, 0x26613ffff] PGTABLE
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] BRK [0x266140000, 0x266140fff] PGTABLE
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] BRK [0x266141000, 0x266141fff] PGTABLE
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] BRK [0x266142000, 0x266142fff] PGTABLE
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] BRK [0x266143000, 0x266143fff] PGTABLE
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] BRK [0x266144000, 0x266144fff] PGTABLE
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] BRK [0x266145000, 0x266145fff] PGTABLE
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] BRK [0x266146000, 0x266146fff] PGTABLE
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] BRK [0x266147000, 0x266147fff] PGTABLE
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] BRK [0x266148000, 0x266148fff] PGTABLE
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] BRK [0x266149000, 0x266149fff] PGTABLE
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] BRK [0x26614a000, 0x26614afff] PGTABLE
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] RAMDISK: [mem 0x31611000-0x34afffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] ACPI: XSDT 0x00000000DFFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] ACPI: FACP 0x00000000DFFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] ACPI: DSDT 0x00000000DFFF0470 0021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] ACPI: FACS 0x00000000DFFF0200 000040
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] ACPI: FACS 0x00000000DFFF0200 000040
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] ACPI: APIC 0x00000000DFFF0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] ACPI: SSDT 0x00000000DFFF02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] No NUMA configuration found
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x00000002792fffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] NODE_DATA(0) allocated [mem 0x2792d5000-0x2792fffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] kvm-clock: cpu 0, msr 2:79254001, primary cpu clock
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] kvm-clock: using sched offset of 5322999909 cycles
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] Zone ranges:
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000]   Normal   [mem 0x0000000100000000-0x00000002792fffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000]   Device   empty
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] Movable zone start for each node
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] Early memory node ranges
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x00000000dffeffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000]   node   0: [mem 0x0000000100000000-0x00000002792fffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x00000002792fffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] On node 0 totalpages: 2462350
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000]   DMA zone: 21 pages reserved
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000]   DMA32 zone: 14272 pages used for memmap
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000]   DMA32 zone: 913392 pages, LIFO batch:31
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000]   Normal zone: 24140 pages used for memmap
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000]   Normal zone: 1544960 pages, LIFO batch:31
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] Reserved but unavailable: 98 pages
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-23
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] ACPI: IRQ0 used by override.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] ACPI: IRQ9 used by override.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0xdfff0000-0xdfffffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0xe0000000-0xfebfffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfec00000-0xfec00fff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfec01000-0xfedfffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfee01000-0xfffbffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfffc0000-0xffffffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] e820: [mem 0xe0000000-0xfebfffff] available for PCI devices
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] random: get_random_bytes called from start_kernel+0x99/0x4fd with crng_init=0
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] percpu: Embedded 46 pages/cpu @        (ptrval) s151552 r8192 d28672 u2097152
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] pcpu-alloc: s151552 r8192 d28672 u2097152 alloc=1*2097152
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] pcpu-alloc: [0] 0 
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] PV qspinlock hash table entries: 256 (order: 0, 4096 bytes)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 2423853
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] Policy zone: Normal
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-38-generic root=UUID=4685e3e7-efbf-410f-8f0d-bdc557809c95 ro quiet splash
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] Memory: 9544620K/9849400K available (12300K kernel code, 2472K rwdata, 4248K rodata, 2408K init, 2416K bss, 304780K reserved, 0K cma-reserved)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] Kernel/User page tables isolation: enabled
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.000000] ftrace: allocating 39175 entries in 154 pages
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.004000] Hierarchical RCU implementation.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.004000] 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=1.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.004000] 	Tasks RCU enabled.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.004000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.004000] NR_IRQS: 524544, nr_irqs: 256, preallocated irqs: 16
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.004000] Console: colour VGA+ 80x25
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.004000] console [tty0] enabled
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.004000] ACPI: Core revision 20170831
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.004000] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.004000] APIC: Switch to symmetric I/O mode setup
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.004000] x2apic enabled
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.004000] Switched APIC routing to physical x2apic.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.004000] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.004000] tsc: Detected 2207.998 MHz processor
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.004000] Calibrating delay loop (skipped) preset value.. 4415.99 BogoMIPS (lpj=8831992)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.004000] pid_max: default: 32768 minimum: 301
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.004000] Security Framework initialized
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.004000] Yama: becoming mindful.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.004000] AppArmor: AppArmor initialized
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.009309] Dentry cache hash table entries: 2097152 (order: 12, 16777216 bytes)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.013385] Inode-cache hash table entries: 1048576 (order: 11, 8388608 bytes)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.013424] Mount-cache hash table entries: 32768 (order: 6, 262144 bytes)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.013442] Mountpoint-cache hash table entries: 32768 (order: 6, 262144 bytes)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.013641] mce: CPU supports 0 MCE banks
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.013651] process: using mwait in idle threads
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.013654] Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.013654] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.013656] Spectre V2 : Mitigation: Full generic retpoline
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.013656] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.013657] Speculative Store Bypass: Vulnerable
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.025380] Freeing SMP alternatives memory: 36K
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] smpboot: CPU0: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz (family: 0x6, model: 0x9e, stepping: 0xa)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] Performance Events: unsupported p6 CPU model 158 no PMU driver, software events only.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] Hierarchical SRCU implementation.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] NMI watchdog: Perf event create on CPU 0 failed with -2
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] NMI watchdog: Perf NMI watchdog permanently disabled
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] smp: Bringing up secondary CPUs ...
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] smp: Brought up 1 node, 1 CPU
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] smpboot: Max logical packages: 1
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] smpboot: Total of 1 processors activated (4415.99 BogoMIPS)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] devtmpfs: initialized
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] x86/mm: Memory block size: 128MB
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] evm: security.selinux
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] evm: security.SMACK64
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] evm: security.SMACK64EXEC
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] evm: security.SMACK64TRANSMUTE
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] evm: security.SMACK64MMAP
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] evm: security.apparmor
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] evm: security.ima
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] evm: security.capability
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] futex hash table entries: 256 (order: 2, 16384 bytes)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] pinctrl core: initialized pinctrl subsystem
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] RTC time: 18:36:14, date: 11/01/18
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] NET: Registered protocol family 16
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] audit: initializing netlink subsys (disabled)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] cpuidle: using governor ladder
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] cpuidle: using governor menu
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] ACPI: bus type PCI registered
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] PCI: Using configuration type 1 for base access
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] audit: type=2000 audit(1541097381.526:1): state=initialized audit_enabled=0 res=1
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] ACPI: Added _OSI(Module Device)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] ACPI: Added _OSI(Processor Device)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] ACPI: Added _OSI(3.0 _SCP Extensions)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] ACPI: Added _OSI(Processor Aggregator Device)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] ACPI: Added _OSI(Linux-Dell-Video)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.028000] ACPI: Executed 1 blocks of module-level executable AML code
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.029075] ACPI: Interpreter enabled
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.029082] ACPI: (supports S0 S5)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.029082] ACPI: Using IOAPIC for interrupt routing
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.029259] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.029410] ACPI: Enabled 2 GPEs in block 00 to 07
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.034449] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.034452] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.034467] acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.034475] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.034805] PCI host bridge to bus 0000:00
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.034807] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.034808] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.034809] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.034810] pci_bus 0000:00: root bus resource [mem 0xe0000000-0xfdffffff window]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.034811] pci_bus 0000:00: root bus resource [bus 00-ff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.034856] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.036424] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.037290] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.037819] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.038033] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.038034] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.038035] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.038036] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.038274] pci 0000:00:02.0: [80ee:beef] type 00 class 0x030000
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.040252] pci 0000:00:02.0: reg 0x10: [mem 0xe0000000-0xe0ffffff pref]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.060667] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.064122] pci 0000:00:03.0: reg 0x10: [mem 0xf0000000-0xf001ffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.072122] pci 0000:00:03.0: reg 0x18: [io  0xd010-0xd017]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.084692] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.088093] pci 0000:00:04.0: reg 0x10: [io  0xd020-0xd03f]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.092091] pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.096095] pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.108479] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.108652] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.108749] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.112409] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.115726] pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.136382] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.136974] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.136985] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.137310] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.140148] pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.144138] pci 0000:00:0d.0: reg 0x14: [io  0xd248-0xd24b]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.148087] pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.151271] pci 0000:00:0d.0: reg 0x1c: [io  0xd258-0xd25b]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.152132] pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.156141] pci 0000:00:0d.0: reg 0x24: [mem 0xf0806000-0xf0807fff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.161883] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.162126] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.162226] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.162326] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.162627] SCSI subsystem initialized
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.162672] libata version 3.00 loaded.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.162723] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.162724] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.164002] pci 0000:00:02.0: vgaarb: bridge control possible
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.164003] vgaarb: loaded
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.164022] ACPI: bus type USB registered
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.164033] usbcore: registered new interface driver usbfs
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.164037] usbcore: registered new interface driver hub
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.164044] usbcore: registered new device driver usb
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.164078] EDAC MC: Ver: 3.0.0
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.165516] PCI: Using ACPI for IRQ routing
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.165517] PCI: pci_cache_line_size set to 64 bytes
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.165725] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.165728] e820: reserve RAM buffer [mem 0xdfff0000-0xdfffffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.165728] e820: reserve RAM buffer [mem 0x279300000-0x27bffffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.165799] NetLabel: Initializing
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.165799] NetLabel:  domain hash size = 128
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.165800] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.165811] NetLabel:  unlabeled traffic allowed by default
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.166164] clocksource: Switched to clocksource kvm-clock
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.174450] VFS: Disk quotas dquot_6.6.0
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.174461] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.174531] AppArmor: AppArmor Filesystem Enabled
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.174552] pnp: PnP ACPI init
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.174610] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.174675] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.175515] pnp: PnP ACPI: found 2 devices
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.180828] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.180835] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.180836] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.180837] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.180838] pci_bus 0000:00: resource 7 [mem 0xe0000000-0xfdffffff window]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.180871] NET: Registered protocol family 2
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.182164] TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.182265] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.182313] TCP: Hash tables configured (established 131072 bind 65536)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.182335] UDP hash table entries: 8192 (order: 6, 262144 bytes)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.183467] UDP-Lite hash table entries: 8192 (order: 6, 262144 bytes)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.183511] NET: Registered protocol family 1
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.183518] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.183549] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.183612] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.184751] PCI: CLS 0 bytes, default 64
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.184783] Unpacking initramfs...
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.749368] Freeing initrd memory: 54204K
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.749368] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.749368] software IO TLB [mem 0xdbff0000-0xdfff0000] (64MB) mapped at [        (ptrval)-        (ptrval)]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.750313] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.750324] Scanning for low memory corruption every 60 seconds
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.750681] Initialise system trusted keyrings
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.750687] Key type blacklist registered
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.750715] workingset: timestamp_bits=36 max_order=22 bucket_order=0
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.751364] zbud: loaded
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.751666] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.751735] fuse init (API version 7.26)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.752272] Key type asymmetric registered
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.752273] Asymmetric key parser 'x509' registered
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.752292] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 246)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.752335] io scheduler noop registered
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.752336] io scheduler deadline registered
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.752397] io scheduler cfq registered (default)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.752748] ACPI: AC Adapter [AC] (on-line)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.752784] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.752794] ACPI: Power Button [PWRF]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.752860] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.752864] ACPI: Sleep Button [SLPF]
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.753943] ACPI: Battery Slot [BAT0] (battery present)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.753971] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.754820] Linux agpgart interface v0.103
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.756660] loop: module loaded
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.756727] ata_piix 0000:00:01.1: version 2.13
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.756999] scsi host0: ata_piix
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.757033] scsi host1: ata_piix
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.757047] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.757048] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.757088] libphy: Fixed MDIO Bus: probed
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.757089] tun: Universal TUN/TAP device driver, 1.6
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.757381] PPP generic driver version 2.4.2
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.757405] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.757407] ehci-pci: EHCI PCI platform driver
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.757412] ehci-platform: EHCI generic platform driver
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.757416] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.757417] ohci-pci: OHCI PCI platform driver
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.757965] ohci-pci 0000:00:06.0: OHCI PCI host controller
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.757969] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.758015] ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.816840] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.816842] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.816843] usb usb1: Product: OHCI PCI host controller
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.816845] usb usb1: Manufacturer: Linux 4.15.0-38-generic ohci_hcd
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.816846] usb usb1: SerialNumber: 0000:00:06.0
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.816940] hub 1-0:1.0: USB hub found
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.816951] hub 1-0:1.0: 12 ports detected
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.817303] ohci-platform: OHCI generic platform driver
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.817312] uhci_hcd: USB Universal Host Controller Interface driver
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.817356] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.817778] serio: i8042 KBD port at 0x60,0x64 irq 1
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.817781] serio: i8042 AUX port at 0x60,0x64 irq 12
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.817857] mousedev: PS/2 mouse device common for all mice
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.818061] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.818404] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.818462] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.818467] i2c /dev entries driver
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.818471] pcie_mp2_amd: AMD(R) PCI-E MP2 Communication Driver Version: 1.0
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.818520] device-mapper: uevent: version 1.0.3
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.818564] device-mapper: ioctl: 4.37.0-ioctl (2017-09-20) initialised: dm-devel@redhat.com
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.818570] ledtrig-cpu: registered to indicate activity on CPUs
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.818674] intel_pmc_core:  initialized
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.818814] NET: Registered protocol family 10
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.821464] Segment Routing with IPv6
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.821479] NET: Registered protocol family 17
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.821504] Key type dns_resolver registered
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.821577] RAS: Correctable Errors collector initialized.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.821586] sched_clock: Marking stable (820471434, 0)->(1113640216, -293168782)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.821688] registered taskstats version 1
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.821695] Loading compiled-in X.509 certificates
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.823322] Loaded X.509 cert 'Build time autogenerated kernel key: f3a9ae7fdf18cf897e7c53db8499a9c1252f0be9'
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.823333] zswap: loaded using pool lzo/zbud
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.825547] Key type big_key registered
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.825549] Key type trusted registered
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.826734] Key type encrypted registered
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.826736] AppArmor: AppArmor sha1 policy hashing enabled
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.826756] ima: No TPM chip found, activating TPM-bypass! (rc=-19)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.826760] ima: Allocated hash algorithm: sha1
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.826769] evm: HMAC attrs: 0x1
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.827104]   Magic number: 10:595:644
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.827175] rtc_cmos rtc_cmos: setting system clock to 2018-11-01 18:36:15 UTC (1541097375)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.827224] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.827224] EDD information not available.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.916939] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.917359] ata2.00: configured for UDMA/33
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.917974] scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.941370] sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.941372] cdrom: Uniform CD-ROM driver Revision: 3.20
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.941571] sr 1:0:0:0: Attached scsi CD-ROM sr0
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.941883] sr 1:0:0:0: Attached scsi generic sg0 type 5
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.945271] Freeing unused kernel memory: 2408K
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.952378] Write protecting the kernel read-only data: 20480k
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.953052] Freeing unused kernel memory: 2008K
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.956869] Freeing unused kernel memory: 1896K
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.962111] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.962112] x86/mm: Checking user space page tables
+Nov  1 14:36:21 asim-VirtualBox kernel: [    0.966735] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.038794] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.038840] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input4
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.049167] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.049168] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.258740] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.273210] usb 1-1: new full-speed USB device number 2 using ohci-pci
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.444667] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:f3:3c:43
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.444671] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.444779] piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.444941] ahci 0000:00:0d.0: version 3.0
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.445498] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.445621] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.445623] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.446992] e1000 0000:00:03.0 enp0s3: renamed from eth0
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.447912] scsi host2: ahci
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.447949] ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.587839] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.587841] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.587842] usb 1-1: Product: USB Tablet
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.587843] usb 1-1: Manufacturer: VirtualBox
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.595240] hidraw: raw HID events driver (C) Jiri Kosina
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.600317] random: fast init done
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.603918] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.603925] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.603938] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.604200] usbcore: registered new interface driver usbhid
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.604201] usbhid: USB HID core driver
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.605772] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input6
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.605914] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.760318] tsc: Refined TSC clocksource calibration: 2201.712 MHz
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.760325] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x1fbc843eb44, max_idle_ns: 440795257168 ns
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.760467] ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.760710] ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.760712] ata3.00: 62914560 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.761030] ata3.00: configured for UDMA/133
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.761197] scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.761439] sd 2:0:0:0: [sda] 62914560 512-byte logical blocks: (32.2 GB/30.0 GiB)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.761445] sd 2:0:0:0: [sda] Write Protect is off
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.761447] sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.761456] sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.761601] sd 2:0:0:0: Attached scsi generic sg1 type 0
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.763386]  sda: sda1 sda2 < sda5 >
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.763627] sd 2:0:0:0: [sda] Attached SCSI disk
+Nov  1 14:36:21 asim-VirtualBox kernel: [    1.956601] EXT4-fs (sda5): mounted filesystem with ordered data mode. Opts: (null)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    2.077885] ip_tables: (C) 2000-2006 Netfilter Core Team
+Nov  1 14:36:21 asim-VirtualBox kernel: [    3.381473] EXT4-fs (sda5): re-mounted. Opts: errors=remount-ro
+Nov  1 14:36:21 asim-VirtualBox kernel: [    3.393608] lp: driver loaded but no devices found
+Nov  1 14:36:21 asim-VirtualBox kernel: [    3.425235] ppdev: user-space parallel port driver
+Nov  1 14:36:21 asim-VirtualBox kernel: [    3.460905] Adding 619624k swap on /swapfile.  Priority:-2 extents:3 across:636008k FS
+Nov  1 14:36:21 asim-VirtualBox kernel: [    3.880951] vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+Nov  1 14:36:21 asim-VirtualBox kernel: [    3.881011] input: Unspecified device as /devices/pci0000:00/0000:00:04.0/input/input7
+Nov  1 14:36:21 asim-VirtualBox kernel: [    3.886731] vboxguest: misc device minor 55, IRQ 20, I/O port d020, MMIO at 00000000f0400000 (size 0x400000)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    3.886734] vboxguest: Successfully loaded version 5.2.8_KernelUbuntu (interface 0x00010004)
+Nov  1 14:36:21 asim-VirtualBox kernel: [    3.954953] vboxvideo: module is from the staging directory, the quality is unknown, you have been warned.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    3.954979] vboxvideo: module verification failed: signature and/or required key missing - tainting kernel
+Nov  1 14:36:21 asim-VirtualBox kernel: [    3.955875] [drm] VRAM 01000000
+Nov  1 14:36:21 asim-VirtualBox kernel: [    3.959307] [TTM] Zone  kernel: Available graphics memory: 4802586 kiB
+Nov  1 14:36:21 asim-VirtualBox kernel: [    3.959307] [TTM] Zone   dma32: Available graphics memory: 2097152 kiB
+Nov  1 14:36:21 asim-VirtualBox kernel: [    3.959308] [TTM] Initializing pool allocator
+Nov  1 14:36:21 asim-VirtualBox kernel: [    3.959310] [TTM] Initializing DMA pool allocator
+Nov  1 14:36:21 asim-VirtualBox kernel: [    3.962982] fbcon: vboxdrmfb (fb0) is primary device
+Nov  1 14:36:21 asim-VirtualBox kernel: [    3.968156] Console: switching to colour frame buffer device 100x37
+Nov  1 14:36:21 asim-VirtualBox kernel: [    3.969085] vboxvideo 0000:00:02.0: fb0: vboxdrmfb frame buffer device
+Nov  1 14:36:21 asim-VirtualBox kernel: [    3.969131] [drm] Initialized vboxvideo 1.0.0 20130823 for 0000:00:02.0 on minor 0
+Nov  1 14:36:21 asim-VirtualBox kernel: [    4.061118] audit: type=1400 audit(1541097378.732:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=362 comm="apparmor_parser"
+Nov  1 14:36:21 asim-VirtualBox kernel: [    4.061120] audit: type=1400 audit(1541097378.732:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=362 comm="apparmor_parser"
+Nov  1 14:36:21 asim-VirtualBox kernel: [    4.061121] audit: type=1400 audit(1541097378.732:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=362 comm="apparmor_parser"
+Nov  1 14:36:21 asim-VirtualBox kernel: [    4.061122] audit: type=1400 audit(1541097378.732:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=362 comm="apparmor_parser"
+Nov  1 14:36:21 asim-VirtualBox kernel: [    4.065787] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 10737418240 ms ovfl timer
+Nov  1 14:36:21 asim-VirtualBox kernel: [    4.065788] RAPL PMU: hw unit of domain pp0-core 2^-0 Joules
+Nov  1 14:36:21 asim-VirtualBox kernel: [    4.065789] RAPL PMU: hw unit of domain package 2^-0 Joules
+Nov  1 14:36:21 asim-VirtualBox kernel: [    4.065789] RAPL PMU: hw unit of domain dram 2^-0 Joules
+Nov  1 14:36:21 asim-VirtualBox kernel: [    4.065789] RAPL PMU: hw unit of domain pp1-gpu 2^-0 Joules
+Nov  1 14:36:21 asim-VirtualBox kernel: [    4.065790] RAPL PMU: hw unit of domain psys 2^-0 Joules
+Nov  1 14:36:21 asim-VirtualBox kernel: [    4.084044] audit: type=1400 audit(1541097378.752:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince" pid=368 comm="apparmor_parser"
+Nov  1 14:36:21 asim-VirtualBox kernel: [    4.084047] audit: type=1400 audit(1541097378.752:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince//sanitized_helper" pid=368 comm="apparmor_parser"
+Nov  1 14:36:21 asim-VirtualBox kernel: [    4.084048] audit: type=1400 audit(1541097378.752:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-previewer" pid=368 comm="apparmor_parser"
+Nov  1 14:36:21 asim-VirtualBox kernel: [    4.084049] audit: type=1400 audit(1541097378.752:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-previewer//sanitized_helper" pid=368 comm="apparmor_parser"
+Nov  1 14:36:21 asim-VirtualBox kernel: [    4.084051] audit: type=1400 audit(1541097378.752:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-thumbnailer" pid=368 comm="apparmor_parser"
+Nov  1 14:36:21 asim-VirtualBox kernel: [    4.112782] AVX2 version of gcm_enc/dec engaged.
+Nov  1 14:36:21 asim-VirtualBox kernel: [    4.112783] AES CTR mode by8 optimization enabled
+Nov  1 14:36:21 asim-VirtualBox kernel: [    4.301350] random: crng init done
+Nov  1 14:36:21 asim-VirtualBox kernel: [    4.301351] random: 7 urandom warning(s) missed due to ratelimiting
+Nov  1 14:36:21 asim-VirtualBox kernel: [    6.126153] snd_intel8x0 0000:00:05.0: white list rate for 1028:0177 is 48000
+Nov  1 14:36:21 asim-VirtualBox kernel: [    6.697855] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Nov  1 14:36:21 asim-VirtualBox kernel: [    6.699343] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Nov  1 14:36:21 asim-VirtualBox kernel: [    6.704835] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Nov  1 14:36:21 asim-VirtualBox kernel: [    6.705088] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Nov  1 14:36:22 asim-VirtualBox kernel: [    8.023767] kauditd_printk_skb: 30 callbacks suppressed
+Nov  1 14:36:22 asim-VirtualBox kernel: [    8.023768] audit: type=1400 audit(1541097382.692:41): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=787 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Nov  1 14:36:22 asim-VirtualBox kernel: [    8.113521] audit: type=1400 audit(1541097382.784:42): apparmor="DENIED" operation="capable" profile="/usr/sbin/mysqld" pid=787 comm="mysqld" capability=2  capname="dac_read_search"
+Nov  1 14:36:22 asim-VirtualBox kernel: [    8.162605] audit: type=1400 audit(1541097382.832:43): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=943 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=124 ouid=0
+Nov  1 14:36:41 asim-VirtualBox kernel: [   27.096315] rfkill: input handler disabled
+Nov  1 14:51:40 asim-VirtualBox kernel: [  924.202945] audit: type=1400 audit(1541098300.324:44): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/5742/usr/lib/snapd/snap-confine" pid=3123 comm="apparmor_parser"
+Nov  1 14:51:40 asim-VirtualBox kernel: [  924.203214] audit: type=1400 audit(1541098300.324:45): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/5742/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=3123 comm="apparmor_parser"
+Nov  1 14:51:40 asim-VirtualBox kernel: [  924.209783] audit: type=1400 audit(1541098300.332:46): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=3126 comm="apparmor_parser"
+Nov  1 14:51:40 asim-VirtualBox kernel: [  924.257318] audit: type=1400 audit(1541098300.380:47): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.core.hook.configure" pid=3128 comm="apparmor_parser"
+Nov  1 14:51:40 asim-VirtualBox kernel: [  924.481357] audit: type=1400 audit(1541098300.604:48): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-calculator" pid=3134 comm="apparmor_parser"
+Nov  1 14:51:40 asim-VirtualBox kernel: [  924.487516] audit: type=1400 audit(1541098300.608:49): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.gnome-calculator.gnome-calculator" pid=3136 comm="apparmor_parser"
+Nov  1 14:51:40 asim-VirtualBox kernel: [  924.683098] audit: type=1400 audit(1541098300.804:50): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-characters" pid=3142 comm="apparmor_parser"
+Nov  1 14:51:40 asim-VirtualBox kernel: [  924.691494] audit: type=1400 audit(1541098300.812:51): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.gnome-characters.gnome-characters" pid=3144 comm="apparmor_parser"
+Nov  1 14:51:40 asim-VirtualBox kernel: [  924.866219] audit: type=1400 audit(1541098300.988:52): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.gnome-logs" pid=3150 comm="apparmor_parser"
+Nov  1 14:51:40 asim-VirtualBox kernel: [  924.872621] audit: type=1400 audit(1541098300.992:53): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.gnome-logs.gnome-logs" pid=3152 comm="apparmor_parser"
+Nov  1 14:51:56 asim-VirtualBox kernel: [  940.453902] kauditd_printk_skb: 14 callbacks suppressed
+Nov  1 14:51:56 asim-VirtualBox kernel: [  940.453903] audit: type=1400 audit(1541098316.576:68): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-logs" pid=3618 comm="apparmor_parser"
+Nov  1 14:51:56 asim-VirtualBox kernel: [  940.632169] audit: type=1400 audit(1541098316.752:69): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-logs.gnome-logs" pid=3640 comm="apparmor_parser"
+Nov  1 14:51:56 asim-VirtualBox kernel: [  940.664231] audit: type=1400 audit(1541098316.788:70): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/5742/usr/lib/snapd/snap-confine" pid=3646 comm="apparmor_parser"
+Nov  1 14:51:56 asim-VirtualBox kernel: [  940.664233] audit: type=1400 audit(1541098316.788:71): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/5742/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=3646 comm="apparmor_parser"
+Nov  1 14:51:56 asim-VirtualBox kernel: [  940.668929] audit: type=1400 audit(1541098316.788:72): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=3648 comm="apparmor_parser"
+Nov  1 14:51:56 asim-VirtualBox kernel: [  940.672004] audit: type=1400 audit(1541098316.796:73): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.core.hook.configure" pid=3650 comm="apparmor_parser"
+Nov  1 14:51:57 asim-VirtualBox kernel: [  940.984372] audit: type=1400 audit(1541098317.108:74): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-calculator" pid=3656 comm="apparmor_parser"
+Nov  1 14:51:57 asim-VirtualBox kernel: [  941.151740] audit: type=1400 audit(1541098317.268:75): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-calculator.gnome-calculator" pid=3658 comm="apparmor_parser"
+Nov  1 14:51:57 asim-VirtualBox kernel: [  941.342789] audit: type=1400 audit(1541098317.460:76): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-characters" pid=3663 comm="apparmor_parser"
+Nov  1 14:51:57 asim-VirtualBox kernel: [  941.665497] audit: type=1400 audit(1541098317.788:77): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-characters.gnome-characters" pid=3665 comm="apparmor_parser"
+Nov  1 18:27:47 asim-VirtualBox kernel: [13890.776017] usb 1-1: USB disconnect, device number 2
+Nov  1 18:27:47 asim-VirtualBox kernel: [13890.806538] e1000: enp0s3 NIC Link is Down
+Nov  1 18:27:47 asim-VirtualBox kernel: [13891.202573] usb 1-1: new full-speed USB device number 3 using ohci-pci
+Nov  1 18:27:47 asim-VirtualBox kernel: [13891.518167] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021
+Nov  1 18:27:47 asim-VirtualBox kernel: [13891.518169] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Nov  1 18:27:47 asim-VirtualBox kernel: [13891.518170] usb 1-1: Product: USB Tablet
+Nov  1 18:27:47 asim-VirtualBox kernel: [13891.518171] usb 1-1: Manufacturer: VirtualBox
+Nov  1 18:27:47 asim-VirtualBox kernel: [13891.530731] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0002/input/input8
+Nov  1 18:27:47 asim-VirtualBox kernel: [13891.660243] hid-generic 0003:80EE:0021.0002: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Nov  1 18:27:51 asim-VirtualBox kernel: [13894.846848] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Nov  1 18:27:55 asim-VirtualBox kernel: [13898.879000] e1000: enp0s3 NIC Link is Down
+Nov  1 18:27:57 asim-VirtualBox kernel: [13900.894900] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Nov  1 18:28:05 asim-VirtualBox kernel: [13908.959032] e1000: enp0s3 NIC Link is Down
+Nov  1 18:28:07 asim-VirtualBox kernel: [13910.974766] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX

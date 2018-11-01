@@ -1,0 +1,9 @@
+2018-11-01 13:10:16,412 INFO Initial blacklisted packages: 
+2018-11-01 13:10:16,413 INFO Initial whitelisted packages: 
+2018-11-01 13:10:16,413 INFO Starting unattended upgrades script
+2018-11-01 13:10:16,413 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESM,a=bionic
+2018-11-01 13:10:18,123 INFO Initial blacklisted packages: 
+2018-11-01 13:10:18,123 INFO Initial whitelisted packages: 
+2018-11-01 13:10:18,123 INFO Starting unattended upgrades script
+2018-11-01 13:10:18,123 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESM,a=bionic
+2018-11-01 13:10:19,164 INFO No packages found that can be upgraded unattended and no pending auto-removals

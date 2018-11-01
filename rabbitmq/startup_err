@@ -1,0 +1,4 @@
+Gracefully halting Erlang VM
+erl_child_setup closed
+
+Crash dump is being written to: erl_crash.dump...done

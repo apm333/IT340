@@ -1,0 +1,79 @@
+[Wed Oct 31 18:21:31.552465 2018] [mpm_event:notice] [pid 2641:tid 140026699574208] AH00489: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed Oct 31 18:21:31.552540 2018] [core:notice] [pid 2641:tid 140026699574208] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 31 18:23:46.119121 2018] [mpm_event:notice] [pid 2641:tid 140026699574208] AH00491: caught SIGTERM, shutting down
+[Wed Oct 31 18:23:46.157516 2018] [mpm_prefork:notice] [pid 14663] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed Oct 31 18:23:46.157585 2018] [core:notice] [pid 14663] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 31 18:23:46.459339 2018] [mpm_prefork:notice] [pid 14663] AH00169: caught SIGTERM, shutting down
+[Wed Oct 31 18:23:46.570194 2018] [mpm_prefork:notice] [pid 14721] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed Oct 31 18:23:46.570238 2018] [core:notice] [pid 14721] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 31 18:25:17.091492 2018] [mpm_prefork:notice] [pid 14721] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 31 18:25:17.128064 2018] [mpm_prefork:notice] [pid 14721] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed Oct 31 18:25:17.128074 2018] [core:notice] [pid 14721] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 31 18:25:39.278203 2018] [mpm_prefork:notice] [pid 14721] AH00169: caught SIGTERM, shutting down
+[Wed Oct 31 18:25:39.336251 2018] [mpm_prefork:notice] [pid 20298] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed Oct 31 18:25:39.336289 2018] [core:notice] [pid 20298] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 31 18:25:40.666755 2018] [mpm_prefork:notice] [pid 20298] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 31 18:25:40.714303 2018] [mpm_prefork:notice] [pid 20298] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed Oct 31 18:25:40.714315 2018] [core:notice] [pid 20298] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 31 18:52:34.194785 2018] [mpm_prefork:notice] [pid 20298] AH00169: caught SIGTERM, shutting down
+[Wed Oct 31 18:52:34.256018 2018] [mpm_prefork:notice] [pid 22967] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed Oct 31 18:52:34.256059 2018] [core:notice] [pid 22967] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 31 18:53:44.707061 2018] [mpm_prefork:notice] [pid 22967] AH00169: caught SIGTERM, shutting down
+[Wed Oct 31 18:53:44.761247 2018] [mpm_prefork:notice] [pid 24643] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed Oct 31 18:53:44.761292 2018] [core:notice] [pid 24643] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 31 18:56:38.887259 2018] [php7:error] [pid 24646] [client 10.0.2.15:50194] script '/var/www/html/info.php' not found or unable to stat
+[Wed Oct 31 18:57:53.337993 2018] [php7:error] [pid 24645] [client 10.0.2.15:50198] script '/var/www/html/info.php' not found or unable to stat
+[Wed Oct 31 18:59:59.771464 2018] [mpm_prefork:notice] [pid 24643] AH00169: caught SIGTERM, shutting down
+[Wed Oct 31 18:59:59.823171 2018] [mpm_prefork:notice] [pid 25497] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed Oct 31 18:59:59.823214 2018] [core:notice] [pid 25497] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 31 19:00:21.412573 2018] [php7:warn] [pid 25501] [client 10.0.2.15:50204] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /var/www/html/info.php on line 3
+[Wed Oct 31 19:00:21.412695 2018] [php7:error] [pid 25501] [client 10.0.2.15:50204] PHP Fatal error:  Uncaught Error: Call to undefined function info() in /var/www/html/info.php:3\nStack trace:\n#0 {main}\n  thrown in /var/www/html/info.php on line 3
+[Wed Oct 31 19:00:42.061856 2018] [php7:warn] [pid 25499] [client 10.0.2.15:50210] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /var/www/html/info.php on line 3
+[Wed Oct 31 19:00:42.061915 2018] [php7:error] [pid 25499] [client 10.0.2.15:50210] PHP Fatal error:  Uncaught Error: Call to undefined function info() in /var/www/html/info.php:3\nStack trace:\n#0 {main}\n  thrown in /var/www/html/info.php on line 3
+[Wed Oct 31 19:03:43.842781 2018] [mpm_prefork:notice] [pid 25497] AH00169: caught SIGTERM, shutting down
+[Wed Oct 31 19:03:43.903101 2018] [mpm_prefork:notice] [pid 30139] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed Oct 31 19:03:43.903144 2018] [core:notice] [pid 30139] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 31 19:24:51.258138 2018] [mpm_prefork:notice] [pid 30139] AH00169: caught SIGTERM, shutting down
+[Wed Oct 31 19:24:51.316110 2018] [mpm_prefork:notice] [pid 30864] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed Oct 31 19:24:51.316151 2018] [core:notice] [pid 30864] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 31 20:13:12.874105 2018] [mpm_prefork:notice] [pid 30864] AH00169: caught SIGTERM, shutting down
+[Wed Oct 31 20:13:12.938452 2018] [mpm_prefork:notice] [pid 32598] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed Oct 31 20:13:12.938510 2018] [core:notice] [pid 32598] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 31 20:14:02.433218 2018] [php7:error] [pid 32602] [client 10.0.2.15:50626] script '/var/www/html/myadmin.php' not found or unable to stat
+[Wed Oct 31 20:40:20.344895 2018] [mpm_prefork:notice] [pid 32598] AH00169: caught SIGTERM, shutting down
+[Wed Oct 31 20:40:20.406041 2018] [mpm_prefork:notice] [pid 1095] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed Oct 31 20:40:20.406091 2018] [core:notice] [pid 1095] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 31 20:40:23.675817 2018] [mpm_prefork:notice] [pid 1095] AH00169: caught SIGTERM, shutting down
+[Wed Oct 31 20:40:23.733876 2018] [mpm_prefork:notice] [pid 1113] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed Oct 31 20:40:23.733920 2018] [core:notice] [pid 1113] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 01 13:18:16.651642 2018] [mpm_prefork:notice] [pid 1113] AH00169: caught SIGTERM, shutting down
+[Thu Nov 01 13:18:16.722249 2018] [mpm_prefork:notice] [pid 2612] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 01 13:18:16.722295 2018] [core:notice] [pid 2612] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 01 13:19:00.469749 2018] [mpm_prefork:notice] [pid 2612] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 01 13:19:00.605578 2018] [mpm_prefork:notice] [pid 2612] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 01 13:19:00.605588 2018] [core:notice] [pid 2612] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 01 13:19:29.340915 2018] [mpm_prefork:notice] [pid 2612] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 01 13:19:29.407211 2018] [mpm_prefork:notice] [pid 2612] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 01 13:19:29.407222 2018] [core:notice] [pid 2612] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 01 14:36:22.925441 2018] [mpm_prefork:notice] [pid 941] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 01 14:36:22.939033 2018] [core:notice] [pid 941] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 01 15:13:45.002058 2018] [mpm_prefork:notice] [pid 941] AH00169: caught SIGTERM, shutting down
+[Thu Nov 01 15:15:22.123591 2018] [mpm_prefork:notice] [pid 5165] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 01 15:15:22.123637 2018] [core:notice] [pid 5165] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 01 15:16:01.233084 2018] [mpm_prefork:notice] [pid 5165] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 01 15:16:01.300665 2018] [mpm_prefork:notice] [pid 5165] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 01 15:16:01.300676 2018] [core:notice] [pid 5165] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 01 15:17:14.094288 2018] [mpm_prefork:notice] [pid 5165] AH00169: caught SIGTERM, shutting down
+[Thu Nov 01 15:17:14.161855 2018] [mpm_prefork:notice] [pid 5318] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 01 15:17:14.161896 2018] [core:notice] [pid 5318] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 01 15:51:53.481754 2018] [mpm_prefork:notice] [pid 5318] AH00169: caught SIGTERM, shutting down
+[Thu Nov 01 15:52:14.182346 2018] [mpm_prefork:notice] [pid 8140] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 01 15:52:14.182398 2018] [core:notice] [pid 8140] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 01 16:09:20.814741 2018] [mpm_prefork:notice] [pid 8140] AH00169: caught SIGTERM, shutting down
+[Thu Nov 01 16:09:20.888613 2018] [mpm_prefork:notice] [pid 9109] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 01 16:09:20.888657 2018] [core:notice] [pid 9109] AH00094: Command line: '/usr/sbin/apache2'

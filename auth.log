@@ -1,0 +1,691 @@
+Oct 31 18:16:04 asim-VirtualBox systemd-logind[501]: New seat seat0.
+Oct 31 18:16:04 asim-VirtualBox systemd-logind[501]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct 31 18:16:04 asim-VirtualBox systemd-logind[501]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Oct 31 18:16:04 asim-VirtualBox systemd-logind[501]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Oct 31 18:16:06 asim-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Oct 31 18:16:06 asim-VirtualBox systemd-logind[501]: New session c1 of user gdm.
+Oct 31 18:16:06 asim-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Oct 31 18:16:06 asim-VirtualBox gnome-keyring-daemon[724]: couldn't access control socket: /run/user/121/keyring/control: No such file or directory
+Oct 31 18:16:09 asim-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.29 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 31 18:16:20 asim-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user asim by (uid=0)
+Oct 31 18:16:20 asim-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user asim by (uid=0)
+Oct 31 18:16:20 asim-VirtualBox systemd-logind[501]: New session 2 of user asim.
+Oct 31 18:16:21 asim-VirtualBox gnome-keyring-daemon[1164]: The Secret Service was already initialized
+Oct 31 18:16:23 asim-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.75 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 31 18:16:33 asim-VirtualBox dbus-daemon[472]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 31 18:17:01 asim-VirtualBox CRON[2006]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 18:17:01 asim-VirtualBox CRON[2006]: pam_unix(cron:session): session closed for user root
+Oct 31 18:17:27 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 31 18:17:27 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:17:40 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:17:51 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Oct 31 18:17:51 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:17:53 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:18:00 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Oct 31 18:18:00 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:21:05 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:21:21 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install apache2
+Oct 31 18:21:21 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:21:33 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:21:51 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl apache2
+Oct 31 18:21:51 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:21:51 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:22:08 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 31 18:22:08 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:22:10 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:23:25 asim-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 18:23:25 asim-VirtualBox pkexec[3081]: asim: Executing command [USER=root] [TTY=unknown] [CWD=/home/asim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 18:23:28 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install php php-cgi libapache2-mod-php php-common php-pear php-mbstring
+Oct 31 18:23:28 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:23:47 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:24:15 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install nagios3-plugins-basic
+Oct 31 18:24:15 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:24:16 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:24:33 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install nagios3 nagios-plugins-basic
+Oct 31 18:24:33 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:25:24 asim-VirtualBox groupadd[18474]: group added to /etc/group: name=postfix, GID=127
+Oct 31 18:25:24 asim-VirtualBox groupadd[18474]: group added to /etc/gshadow: name=postfix
+Oct 31 18:25:24 asim-VirtualBox groupadd[18474]: new group: name=postfix, GID=127
+Oct 31 18:25:24 asim-VirtualBox useradd[18480]: new user: name=postfix, UID=122, GID=127, home=/var/spool/postfix, shell=/usr/sbin/nologin
+Oct 31 18:25:24 asim-VirtualBox usermod[18486]: change user 'postfix' password
+Oct 31 18:25:24 asim-VirtualBox chage[18491]: changed password expiry for postfix
+Oct 31 18:25:24 asim-VirtualBox groupadd[18531]: group added to /etc/group: name=postdrop, GID=128
+Oct 31 18:25:24 asim-VirtualBox groupadd[18531]: group added to /etc/gshadow: name=postdrop
+Oct 31 18:25:24 asim-VirtualBox groupadd[18531]: new group: name=postdrop, GID=128
+Oct 31 18:25:35 asim-VirtualBox groupadd[20048]: group added to /etc/group: name=nagios, GID=129
+Oct 31 18:25:35 asim-VirtualBox groupadd[20048]: group added to /etc/gshadow: name=nagios
+Oct 31 18:25:35 asim-VirtualBox groupadd[20048]: new group: name=nagios, GID=129
+Oct 31 18:25:35 asim-VirtualBox useradd[20052]: new user: name=nagios, UID=123, GID=129, home=/var/lib/nagios, shell=/usr/sbin/nologin
+Oct 31 18:25:35 asim-VirtualBox chage[20058]: changed password expiry for nagios
+Oct 31 18:25:44 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:26:25 asim-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 18:26:25 asim-VirtualBox pkexec[20482]: asim: Executing command [USER=root] [TTY=unknown] [CWD=/home/asim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 18:28:56 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/nano /etc/nagios3/nagios.cfg
+Oct 31 18:28:56 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:29:29 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:29:50 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/nano /etc/nagios3/apache.conf
+Oct 31 18:29:50 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:30:00 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:30:12 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/nano /etc/nagios3/nagios.cfg
+Oct 31 18:30:12 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:30:58 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:31:19 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/nano /etc/nagios3/apache2.conf
+Oct 31 18:31:19 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:32:19 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:32:47 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl restart nagios3.service
+Oct 31 18:32:47 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:32:47 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:34:21 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 31 18:34:21 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:34:23 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:34:38 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install mysql-server
+Oct 31 18:34:38 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:34:46 asim-VirtualBox groupadd[21184]: group added to /etc/group: name=mysql, GID=130
+Oct 31 18:34:46 asim-VirtualBox groupadd[21184]: group added to /etc/gshadow: name=mysql
+Oct 31 18:34:46 asim-VirtualBox groupadd[21184]: new group: name=mysql, GID=130
+Oct 31 18:34:46 asim-VirtualBox useradd[21190]: new user: name=mysql, UID=124, GID=130, home=/nonexistent, shell=/bin/false
+Oct 31 18:34:46 asim-VirtualBox chage[21196]: changed password expiry for mysql
+Oct 31 18:34:46 asim-VirtualBox chfn[21199]: changed user 'mysql' information
+Oct 31 18:35:07 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:35:25 asim-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 18:35:25 asim-VirtualBox pkexec[22678]: asim: Executing command [USER=root] [TTY=unknown] [CWD=/home/asim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 18:38:29 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install mysql_secure_installtion
+Oct 31 18:38:29 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:38:30 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:38:35 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install mysql_secure_installation
+Oct 31 18:38:35 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:38:36 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:39:01 asim-VirtualBox CRON[22738]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 18:39:01 asim-VirtualBox CRON[22738]: pam_unix(cron:session): session closed for user root
+Oct 31 18:40:42 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install mysql_secure_installation
+Oct 31 18:40:42 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:40:43 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:42:22 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install mysql_secure_installtion
+Oct 31 18:42:22 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:42:23 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:42:51 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/install mysql_secure_installtion
+Oct 31 18:42:51 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:42:51 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:43:31 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/mysql_secure_installation
+Oct 31 18:43:31 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:44:21 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:45:22 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/mysql_install_db
+Oct 31 18:45:22 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:45:22 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:48:08 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/mysql -u root -p
+Oct 31 18:48:08 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:49:36 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt-get install php libapache2-mod php
+Oct 31 18:49:36 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:49:37 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:50:07 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install php libapache2-mod php
+Oct 31 18:50:07 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:50:08 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:50:59 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt-get instal php libapachce2-mod-php
+Oct 31 18:50:59 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:50:59 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:51:05 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt-get install php libapachce2-mod-php
+Oct 31 18:51:05 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:51:06 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:51:59 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install php libapache2-mod-php
+Oct 31 18:51:59 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:52:00 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:52:34 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Oct 31 18:52:34 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:52:34 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:52:51 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install php-fpm
+Oct 31 18:52:51 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:53:04 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:53:25 asim-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 18:53:25 asim-VirtualBox pkexec[24622]: asim: Executing command [USER=root] [TTY=unknown] [CWD=/home/asim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 18:53:44 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Oct 31 18:53:44 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:53:44 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:55:56 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install net-tools
+Oct 31 18:55:56 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:56:00 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:56:25 asim-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 18:56:25 asim-VirtualBox pkexec[25293]: asim: Executing command [USER=root] [TTY=unknown] [CWD=/home/asim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 18:58:34 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install php libapache2-mod-php
+Oct 31 18:58:34 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:58:34 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:59:01 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/nano /var/www/html/info.php
+Oct 31 18:59:01 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:59:46 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:59:59 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Oct 31 18:59:59 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:59:59 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:01:54 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 31 19:01:54 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:01:56 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:02:25 asim-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 19:02:25 asim-VirtualBox pkexec[25804]: asim: Executing command [USER=root] [TTY=unknown] [CWD=/home/asim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 19:02:34 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install phpmyadmin php-mbstring php-gettext
+Oct 31 19:02:34 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:03:15 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:03:36 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/sbin/phpenmod mbstring
+Oct 31 19:03:36 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:03:37 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:03:43 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Oct 31 19:03:43 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:03:43 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:03:55 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/mysql
+Oct 31 19:03:55 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:05:25 asim-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 19:05:25 asim-VirtualBox pkexec[30156]: asim: Executing command [USER=root] [TTY=unknown] [CWD=/home/asim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 19:09:01 asim-VirtualBox CRON[30210]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 19:09:01 asim-VirtualBox CRON[30210]: pam_unix(cron:session): session closed for user root
+Oct 31 19:17:01 asim-VirtualBox CRON[30412]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 19:17:01 asim-VirtualBox CRON[30412]: pam_unix(cron:session): session closed for user root
+Oct 31 19:22:52 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:22:52 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:23:33 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 31 19:23:33 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:23:35 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:24:06 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install phpmyadmin php-mbstring php-gettext
+Oct 31 19:24:06 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:24:07 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:24:33 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/sbin/phpenmod mbstring
+Oct 31 19:24:33 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:24:33 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:24:51 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Oct 31 19:24:51 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:24:51 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:25:03 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/mysql
+Oct 31 19:25:03 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:26:25 asim-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 19:26:25 asim-VirtualBox pkexec[30885]: asim: Executing command [USER=root] [TTY=unknown] [CWD=/home/asim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 19:39:01 asim-VirtualBox CRON[31077]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 19:39:01 asim-VirtualBox CRON[31077]: pam_unix(cron:session): session closed for user root
+Oct 31 19:50:48 asim-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=asim rhost=  user=asim
+Oct 31 19:51:07 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/mysql
+Oct 31 19:51:07 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:51:07 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:51:17 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/mysql
+Oct 31 19:51:17 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:51:17 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:51:25 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/mysql
+Oct 31 19:51:25 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:51:25 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:09:01 asim-VirtualBox CRON[31772]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 20:09:01 asim-VirtualBox CRON[31772]: pam_unix(cron:session): session closed for user root
+Oct 31 20:12:15 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt installmcrypt
+Oct 31 20:12:15 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:12:15 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:12:21 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install mcrypt
+Oct 31 20:12:21 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:12:27 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:13:12 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/sbin/service apache2 restart
+Oct 31 20:13:12 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:13:12 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:14:39 asim-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 20:14:39 asim-VirtualBox pkexec[32618]: asim: Executing command [USER=root] [TTY=unknown] [CWD=/home/asim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 20:17:01 asim-VirtualBox CRON[32665]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 20:17:01 asim-VirtualBox CRON[32665]: pam_unix(cron:session): session closed for user root
+Oct 31 20:20:26 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 31 20:20:26 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:20:28 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:20:39 asim-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 20:20:39 asim-VirtualBox pkexec[525]: asim: Executing command [USER=root] [TTY=unknown] [CWD=/home/asim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 20:28:05 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt-get install libapache2-mod-auth-mysql
+Oct 31 20:28:05 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:28:06 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:28:29 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt-get install libapache2-mod-auth-mysql php5-mysql phpmyadmin
+Oct 31 20:28:29 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:28:30 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:30:22 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt-get install libapache2-mod-auth-mysql php5-mysql phpmyadmin
+Oct 31 20:30:22 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:30:23 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:31:20 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install libapache2-mod-auth-mysql php5-mysql phpmyadmin
+Oct 31 20:31:20 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:31:20 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:35:33 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install libapache2-mod-auth-mysql php5-mysql phpmyadmin
+Oct 31 20:35:33 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:35:33 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:38:54 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/ln -s /usr/share/phpmyadmin /var/www/phpmyadmin
+Oct 31 20:38:54 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:38:54 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:39:01 asim-VirtualBox CRON[991]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 20:39:01 asim-VirtualBox CRON[991]: pam_unix(cron:session): session closed for user root
+Oct 31 20:40:03 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl apache2 restart
+Oct 31 20:40:03 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:40:03 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:40:20 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Oct 31 20:40:20 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:40:20 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:40:23 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Oct 31 20:40:23 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:40:23 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:57:44 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install mysql-server mysql-client
+Oct 31 20:57:44 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:57:48 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:58:10 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/nano /etc/apache2/mods-enabled/dir.conf
+Oct 31 20:58:10 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:10:31 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:10:46 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-enabled/000-default.conf
+Nov  1 13:10:46 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:10:57 asim-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 13:10:57 asim-VirtualBox pkexec[2323]: asim: Executing command [USER=root] [TTY=unknown] [CWD=/home/asim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 13:17:01 asim-VirtualBox CRON[2596]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 13:17:01 asim-VirtualBox CRON[2596]: pam_unix(cron:session): session closed for user root
+Nov  1 13:17:55 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:18:16 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl restart apache2.service
+Nov  1 13:18:16 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:18:16 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:18:32 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt-get install php php-cgi libapache2-mod-php php-common php-pear php-mbstring
+Nov  1 13:18:32 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:18:33 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:18:43 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/sbin/a2enconf php7.2-cgi
+Nov  1 13:18:43 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:18:43 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:18:54 asim-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-process:2631:920078 (system bus name :1.199 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  1 13:19:00 asim-VirtualBox polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:asim to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.200 [systemctl reload apache2] (owned by unix-user:asim)
+Nov  1 13:19:00 asim-VirtualBox polkitd(authority=local): Unregistered Authentication Agent for unix-process:2631:920078 (system bus name :1.199, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov  1 13:19:15 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/sbin/a2enconf php7.2-cgi
+Nov  1 13:19:15 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:19:15 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:19:29 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl reload apache2.service
+Nov  1 13:19:29 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:19:29 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:19:43 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt-get install phpmyadmin php-gettext
+Nov  1 13:19:43 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:19:43 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:21:56 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/sh -c echo "deb https://packages.erlang-solutions.com/ubuntu $(lsb_release -sc) contrib" >> /etc/apt/sources.list.d/erlang.list
+Nov  1 13:21:56 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:21:56 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:22:33 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt update
+Nov  1 13:22:33 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:22:35 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:22:56 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install erlang
+Nov  1 13:22:56 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:22:57 asim-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 13:22:57 asim-VirtualBox pkexec[3057]: asim: Executing command [USER=root] [TTY=unknown] [CWD=/home/asim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 13:23:19 asim-VirtualBox groupadd[3530]: group added to /etc/group: name=epmd, GID=131
+Nov  1 13:23:19 asim-VirtualBox groupadd[3530]: group added to /etc/gshadow: name=epmd
+Nov  1 13:23:19 asim-VirtualBox groupadd[3530]: new group: name=epmd, GID=131
+Nov  1 13:23:19 asim-VirtualBox useradd[3534]: new user: name=epmd, UID=125, GID=131, home=/var/run/epmd, shell=/usr/sbin/nologin
+Nov  1 13:23:19 asim-VirtualBox usermod[3540]: change user 'epmd' password
+Nov  1 13:23:19 asim-VirtualBox chage[3545]: changed password expiry for epmd
+Nov  1 13:23:27 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:23:55 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/sh -c echo "deb https://dl.bintray.com/rabbitmq/debian $(lsb_release -sc) main" >> /etc/apt/sources.list.d/rabbitmq.list
+Nov  1 13:23:55 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:23:55 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:24:10 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt update
+Nov  1 13:24:10 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:24:13 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:24:37 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt intall rabbitmq-server
+Nov  1 13:24:37 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:24:37 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:24:43 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install rabbitmq-server
+Nov  1 13:24:43 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:24:48 asim-VirtualBox groupadd[7042]: group added to /etc/group: name=rabbitmq, GID=132
+Nov  1 13:24:48 asim-VirtualBox groupadd[7042]: group added to /etc/gshadow: name=rabbitmq
+Nov  1 13:24:48 asim-VirtualBox groupadd[7042]: new group: name=rabbitmq, GID=132
+Nov  1 13:24:48 asim-VirtualBox useradd[7048]: new user: name=rabbitmq, UID=126, GID=132, home=/var/lib/rabbitmq, shell=/usr/sbin/nologin
+Nov  1 13:24:48 asim-VirtualBox chage[7054]: changed password expiry for rabbitmq
+Nov  1 13:24:48 asim-VirtualBox chfn[7057]: changed user 'rabbitmq' information
+Nov  1 13:24:59 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:25:25 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl enable rabbitmq-server
+Nov  1 13:25:25 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:25:28 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:25:39 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl start rabbitmq-server
+Nov  1 13:25:39 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:25:39 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:25:45 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl stop rabbitmq-server
+Nov  1 13:25:45 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:25:57 asim-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 13:25:57 asim-VirtualBox pkexec[8044]: asim: Executing command [USER=root] [TTY=unknown] [CWD=/home/asim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 13:27:16 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl stop rabbitmq-server
+Nov  1 13:27:16 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:27:16 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:27:29 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/sbin/rabbitmq-plugins enable rabbitmq_management
+Nov  1 13:27:29 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:27:30 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:35:09 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/apt install git
+Nov  1 13:35:09 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:35:18 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:35:32 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/apt install git
+Nov  1 13:35:32 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:35:33 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:36:20 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install git
+Nov  1 13:36:20 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:36:20 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:36:44 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt update
+Nov  1 13:36:44 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:36:46 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:37:06 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install make libssl-dev libghc-zlib-dev libcurl4-gnutls-dev libexpat1-dev gettext unzip
+Nov  1 13:37:06 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:37:41 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:37:57 asim-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 13:37:57 asim-VirtualBox pkexec[16764]: asim: Executing command [USER=root] [TTY=unknown] [CWD=/home/asim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 13:39:01 asim-VirtualBox CRON[16776]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 13:39:01 asim-VirtualBox CRON[16776]: pam_unix(cron:session): session closed for user root
+Nov  1 13:43:24 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/apt install npm
+Nov  1 13:43:24 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:43:45 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:43:57 asim-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 13:43:57 asim-VirtualBox pkexec[19949]: asim: Executing command [USER=root] [TTY=unknown] [CWD=/home/asim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 13:45:29 asim-VirtualBox PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.package-install-untrusted auth (only_trusted:0)
+Nov  1 13:45:35 asim-VirtualBox polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:asim to gain ONE-SHOT authorization for action org.freedesktop.packagekit.package-install-untrusted for system-bus-name::1.229 [/usr/bin/gnome-software] (owned by unix-user:asim)
+Nov  1 13:45:35 asim-VirtualBox PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.package-install-untrusted
+Nov  1 13:45:39 asim-VirtualBox PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.package-install-untrusted auth (only_trusted:0)
+Nov  1 13:45:41 asim-VirtualBox polkitd(authority=local): Operator of unix-session:2 FAILED to authenticate to gain authorization for action org.freedesktop.packagekit.package-install-untrusted for system-bus-name::1.229 [/usr/bin/gnome-software] (owned by unix-user:asim)
+Nov  1 13:45:41 asim-VirtualBox PackageKit: uid 1000 failed to obtain auth
+Nov  1 13:45:43 asim-VirtualBox PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.package-install-untrusted auth (only_trusted:0)
+Nov  1 13:45:47 asim-VirtualBox polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:asim to gain ONE-SHOT authorization for action org.freedesktop.packagekit.package-install-untrusted for system-bus-name::1.229 [/usr/bin/gnome-software] (owned by unix-user:asim)
+Nov  1 13:45:47 asim-VirtualBox PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.package-install-untrusted
+Nov  1 13:48:08 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/sh -c echo "deb https://packages.erlang-solutions.com/ubuntu $(lsb_release -sc) contrib" >> /etc/apt/sources.list.d/erlang.list
+Nov  1 13:48:08 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:48:08 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:48:40 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt-key add erlang_solutions.asc
+Nov  1 13:48:40 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:48:40 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:48:50 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt update
+Nov  1 13:48:50 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:48:53 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:49:03 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install erlang
+Nov  1 13:49:03 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:50:09 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:50:27 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/sh -c echo "deb https://dl.bintray.com/rabbitmq/debian $(lsb_release -sc) main" >> /etc/apt/sources.list.d/rabbitmq.list
+Nov  1 13:50:27 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:50:27 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:50:42 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt-key add -
+Nov  1 13:50:42 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:50:43 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:50:53 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt-key add -
+Nov  1 13:50:53 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:50:53 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:51:04 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt update
+Nov  1 13:51:04 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:51:08 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:51:15 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install rabbitmq-server
+Nov  1 13:51:15 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:51:41 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:51:54 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl enable rabbitmq-server
+Nov  1 13:51:54 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:51:58 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:52:10 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl start rabbitmq-server
+Nov  1 13:52:10 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:52:10 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:52:20 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl stop rabbitmq-server
+Nov  1 13:52:20 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:52:25 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:52:34 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/sbin/rabbitmq-plugins enable rabbitmq_management
+Nov  1 13:52:34 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:52:36 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:52:57 asim-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 13:52:57 asim-VirtualBox pkexec[24710]: asim: Executing command [USER=root] [TTY=unknown] [CWD=/home/asim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 13:56:19 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt-key add -
+Nov  1 13:56:19 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 13:56:19 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 13:56:40 asim-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-process:24848:1146641 (system bus name :1.272 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  1 13:56:44 asim-VirtualBox polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:asim to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.273 [systemctl start rabbitmq-server.service] (owned by unix-user:asim)
+Nov  1 13:56:48 asim-VirtualBox polkitd(authority=local): Unregistered Authentication Agent for unix-process:24848:1146641 (system bus name :1.272, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov  1 14:00:34 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/mysql
+Nov  1 14:00:34 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 14:00:34 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 14:00:57 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/mysql
+Nov  1 14:00:57 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 14:00:57 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 14:02:57 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/sbin/dpkg-reconfigure mysql-server-5.5
+Nov  1 14:02:57 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 14:02:57 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 14:09:01 asim-VirtualBox CRON[25839]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 14:09:01 asim-VirtualBox CRON[25839]: pam_unix(cron:session): session closed for user root
+Nov  1 14:10:44 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/mysql status
+Nov  1 14:10:44 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 14:10:44 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 14:11:06 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/sbin/service mysql status
+Nov  1 14:11:06 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 14:11:06 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 14:11:36 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/mysql -u root -p
+Nov  1 14:11:36 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 14:17:01 asim-VirtualBox CRON[26327]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 14:17:01 asim-VirtualBox CRON[26327]: pam_unix(cron:session): session closed for user root
+Nov  1 14:20:27 asim-VirtualBox gnome-keyring-daemon[1164]: couldn't initialize slot with master password: The password or PIN is incorrect
+Nov  1 14:20:27 asim-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Nov  1 14:29:08 asim-VirtualBox gnome-keyring-daemon[1164]: couldn't initialize slot with master password: The password or PIN is incorrect
+Nov  1 14:29:08 asim-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Nov  1 14:31:51 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install curl
+Nov  1 14:31:51 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 14:31:56 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 14:31:57 asim-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 14:31:57 asim-VirtualBox pkexec[27746]: asim: Executing command [USER=root] [TTY=unknown] [CWD=/home/asim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 14:36:21 asim-VirtualBox systemd-logind[544]: New seat seat0.
+Nov  1 14:36:21 asim-VirtualBox systemd-logind[544]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  1 14:36:21 asim-VirtualBox systemd-logind[544]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  1 14:36:21 asim-VirtualBox systemd-logind[544]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  1 14:36:23 asim-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Nov  1 14:36:23 asim-VirtualBox systemd-logind[544]: New session c1 of user gdm.
+Nov  1 14:36:23 asim-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Nov  1 14:36:26 asim-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.29 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  1 14:36:38 asim-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user asim by (uid=0)
+Nov  1 14:36:38 asim-VirtualBox systemd-logind[544]: New session 2 of user asim.
+Nov  1 14:36:38 asim-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user asim by (uid=0)
+Nov  1 14:36:41 asim-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  1 14:36:51 asim-VirtualBox dbus-daemon[571]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Nov  1 14:37:48 asim-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 14:37:48 asim-VirtualBox pkexec[1963]: asim: Executing command [USER=root] [TTY=unknown] [CWD=/home/asim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 14:39:01 asim-VirtualBox CRON[2141]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 14:39:01 asim-VirtualBox CRON[2141]: pam_unix(cron:session): session closed for user root
+Nov  1 14:43:28 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/nano /usr/local/nagios/etc/nagios.cfg
+Nov  1 14:43:28 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 14:55:38 asim-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Nov  1 14:56:57 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt-get install git
+Nov  1 14:56:57 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 14:56:58 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 15:09:01 asim-VirtualBox CRON[4797]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 15:09:01 asim-VirtualBox CRON[4797]: pam_unix(cron:session): session closed for user root
+Nov  1 15:10:45 asim-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 15:10:45 asim-VirtualBox pkexec[4901]: asim: Executing command [USER=root] [TTY=unknown] [CWD=/home/asim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 15:11:47 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/nano /etc/apache2/mods-enabled/dir.conf
+Nov  1 15:11:47 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 15:12:27 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-enabled/000-default.conf
+Nov  1 15:12:27 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 15:13:31 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 15:13:44 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl restart apache2.service
+Nov  1 15:13:44 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 15:13:45 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 15:14:00 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-enabled/000-default.conf
+Nov  1 15:14:00 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 15:14:24 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 15:14:27 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl restart apache2.service
+Nov  1 15:14:27 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 15:14:27 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 15:14:39 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-enabled/000-default.conf
+Nov  1 15:14:39 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 15:15:19 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 15:15:22 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl restart apache2.service
+Nov  1 15:15:22 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 15:15:22 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 15:15:37 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt-get install php php-cgi libapache2-mod-php php-common php-pear php-mbstring
+Nov  1 15:15:37 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 15:15:38 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 15:15:48 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/sbin/a2enconf php7.2-cgi
+Nov  1 15:15:48 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 15:15:48 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 15:16:01 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl reload apache2.service
+Nov  1 15:16:01 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 15:16:01 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 15:16:13 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt-get install phpmyadmin php-gettext
+Nov  1 15:16:13 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 15:16:14 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 15:17:01 asim-VirtualBox CRON[5297]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 15:17:01 asim-VirtualBox CRON[5297]: pam_unix(cron:session): session closed for user root
+Nov  1 15:17:13 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl restart apache2.service
+Nov  1 15:17:13 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 15:17:14 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 15:17:29 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-enabled/000-default.conf
+Nov  1 15:17:29 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 15:28:47 asim-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 15:28:47 asim-VirtualBox pkexec[5938]: asim: Executing command [USER=root] [TTY=unknown] [CWD=/home/asim] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 15:39:01 asim-VirtualBox CRON[6696]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 15:39:01 asim-VirtualBox CRON[6696]: pam_unix(cron:session): session closed for user root
+Nov  1 15:46:07 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-enabled/000-default.conf
+Nov  1 15:46:07 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 15:46:15 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 15:50:57 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov  1 15:50:57 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 15:51:09 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 15:51:09 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt-get dist-upgrade
+Nov  1 15:51:09 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 15:51:19 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 15:51:19 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt-get autoremove
+Nov  1 15:51:19 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 15:51:26 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 15:51:53 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl stop apache2.service
+Nov  1 15:51:53 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 15:51:53 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 15:52:14 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl start apache2.service
+Nov  1 15:52:14 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 15:52:14 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:02:37 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt-get install php libapache2-mod-php php-mysql php-xml php-mysql php-curl php-gd php-imagick php-imap php-mcrypt php-recode php-tidy php-xmlrpc
+Nov  1 16:02:37 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:02:38 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:03:50 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/mv drupal-8.3.5/autoload.php drupal-8.3.5/composer.json drupal-8.3.5/composer.lock drupal-8.3.5/core drupal-8.3.5/example.gitignore drupal-8.3.5/index.php drupal-8.3.5/LICENSE.txt drupal-8.3.5/modules drupal-8.3.5/profiles drupal-8.3.5/README.txt drupal-8.3.5/robots.txt drupal-8.3.5/sites drupal-8.3.5/themes drupal-8.3.5/update.php drupal-8.3.5/vendor drupal-8.3.5/web.config /var/www/html
+Nov  1 16:03:50 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:03:50 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:04:25 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/rm /var/www/html/index.html
+Nov  1 16:04:25 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:04:25 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:04:40 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/chmod -R 755 /var/www/html/autoload.php /var/www/html/composer.json /var/www/html/composer.lock /var/www/html/core /var/www/html/example.gitignore /var/www/html/index.php /var/www/html/info.php /var/www/html/LICENSE.txt /var/www/html/modules /var/www/html/profiles /var/www/html/README.txt /var/www/html/robots.txt /var/www/html/sites /var/www/html/themes /var/www/html/update.php /var/www/html/vendor /var/www/html/web.config
+Nov  1 16:04:40 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:04:40 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:04:50 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/chown -R www-data:www-data /var/www/html/autoload.php /var/www/html/composer.json /var/www/html/composer.lock /var/www/html/core /var/www/html/example.gitignore /var/www/html/index.php /var/www/html/info.php /var/www/html/LICENSE.txt /var/www/html/modules /var/www/html/profiles /var/www/html/README.txt /var/www/html/robots.txt /var/www/html/sites /var/www/html/themes /var/www/html/update.php /var/www/html/vendor /var/www/html/web.config
+Nov  1 16:04:50 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:04:50 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:04:58 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/a2enmod rewrite
+Nov  1 16:04:59 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:04:59 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:05:19 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/a2enmod env
+Nov  1 16:05:19 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:05:19 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:05:29 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/a2enmod dir
+Nov  1 16:05:29 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:05:29 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:05:40 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/a2enmod mime
+Nov  1 16:05:40 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:05:40 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:06:00 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-enabled/000-default.conf
+Nov  1 16:06:00 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:09:01 asim-VirtualBox CRON[9091]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 16:09:01 asim-VirtualBox CRON[9091]: pam_unix(cron:session): session closed for user root
+Nov  1 16:09:07 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:09:20 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Nov  1 16:09:20 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:09:20 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:17:01 asim-VirtualBox CRON[9511]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 16:17:01 asim-VirtualBox CRON[9511]: pam_unix(cron:session): session closed for user root
+Nov  1 16:34:52 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install tar
+Nov  1 16:34:52 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:34:53 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:35:05 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt update
+Nov  1 16:35:05 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:35:15 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:35:38 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/tar zxf nrpe-3.2.1.tar.gz
+Nov  1 16:35:38 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:35:38 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:39:01 asim-VirtualBox CRON[11222]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 16:39:01 asim-VirtualBox CRON[11222]: pam_unix(cron:session): session closed for user root
+Nov  1 16:47:51 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim/git-2.18.0 ; USER=root ; COMMAND=/usr/bin/make prefix=/usr/local install
+Nov  1 16:47:51 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:47:52 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:09:01 asim-VirtualBox CRON[17626]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 17:09:01 asim-VirtualBox CRON[17626]: pam_unix(cron:session): session closed for user root
+Nov  1 17:17:01 asim-VirtualBox CRON[18035]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 17:17:01 asim-VirtualBox CRON[18035]: pam_unix(cron:session): session closed for user root
+Nov  1 17:35:48 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/unzip nrpe-3.2.1.tar.gz
+Nov  1 17:35:48 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:35:48 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:36:06 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install unzip
+Nov  1 17:36:06 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:36:06 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:36:09 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/unzip nrpe-3.2.1.tar.gz
+Nov  1 17:36:09 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:36:09 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:39:01 asim-VirtualBox CRON[19217]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 17:39:01 asim-VirtualBox CRON[19217]: pam_unix(cron:session): session closed for user root
+Nov  1 17:42:03 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/php
+Nov  1 17:42:03 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:43:15 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt-get install php
+Nov  1 17:43:15 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:43:16 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:43:46 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/mv /var/www/html/index.html /var/www/html/index.back
+Nov  1 17:43:46 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:43:46 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:44:27 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/gedit /var/www/html/index.php
+Nov  1 17:44:27 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:50:56 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/sbin/service apache2
+Nov  1 17:50:56 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:50:56 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:51:57 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl status apache2
+Nov  1 17:51:57 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:52:21 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl status mysql
+Nov  1 17:52:21 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:52:38 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl status rabbitmq
+Nov  1 17:52:38 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:52:38 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:52:47 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl status php
+Nov  1 17:52:47 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:52:47 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:54:55 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl status bootstrap
+Nov  1 17:54:55 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:54:55 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:55:01 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl status bootstrap.service
+Nov  1 17:55:01 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:55:01 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:56:47 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/install bower
+Nov  1 17:56:47 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:56:47 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:56:58 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/snap install bower
+Nov  1 17:56:58 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:56:58 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:58:00 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install composer
+Nov  1 17:58:00 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:58:07 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 18:00:19 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl status apache2
+Nov  1 18:00:19 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 18:01:06 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl status apache2
+Nov  1 18:01:06 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 18:01:17 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/bin/systemctl status mysql
+Nov  1 18:01:17 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 18:09:01 asim-VirtualBox CRON[21857]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 18:09:01 asim-VirtualBox CRON[21857]: pam_unix(cron:session): session closed for user root
+Nov  1 18:14:35 asim-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Nov  1 18:17:01 asim-VirtualBox CRON[22281]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 18:17:01 asim-VirtualBox CRON[22281]: pam_unix(cron:session): session closed for user root
+Nov  1 18:27:23 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 18:27:23 asim-VirtualBox sudo: message repeated 9 times: [ pam_unix(sudo:session): session closed for user root]
+Nov  1 19:17:51 asim-VirtualBox CRON[23592]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 19:17:51 asim-VirtualBox CRON[23592]: pam_unix(cron:session): session closed for user root
+Nov  1 19:36:47 asim-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Nov  1 19:37:21 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/home/asim ; USER=root ; COMMAND=/usr/bin/apt install git
+Nov  1 19:37:21 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 19:37:22 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 19:39:01 asim-VirtualBox CRON[24703]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 19:39:01 asim-VirtualBox CRON[24703]: pam_unix(cron:session): session closed for user root
+Nov  1 19:39:49 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/local/bin/git add .
+Nov  1 19:39:49 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 19:39:49 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 19:42:30 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/local/bin/git clone https://github.com/apm333/IT340.git
+Nov  1 19:42:30 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 19:42:30 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 19:42:43 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/local/bin/git add .
+Nov  1 19:42:43 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 19:42:43 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 19:43:30 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/local/bin/git init
+Nov  1 19:43:30 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 19:43:30 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 19:43:43 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/local/bin/git clone https://github.com/apm333/IT340.git
+Nov  1 19:43:43 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 19:43:43 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 19:44:50 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/local/bin/git remote add origin https://github.com/apm333/IT340.git
+Nov  1 19:44:50 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 19:44:50 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 19:45:16 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/local/bin/git push -u origin master
+Nov  1 19:45:16 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 19:45:16 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 19:45:49 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/local/bin/git add .
+Nov  1 19:45:49 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 19:45:50 asim-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 19:46:21 asim-VirtualBox sudo:     asim : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/local/bin/git commit -am first commit
+Nov  1 19:46:21 asim-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)

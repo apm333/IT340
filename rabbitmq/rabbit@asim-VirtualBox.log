@@ -1,0 +1,335 @@
+
+=INFO REPORT==== 1-Nov-2018::13:24:54 ===
+Starting RabbitMQ 3.6.10 on Erlang 20.2.2
+Copyright (C) 2007-2017 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 1-Nov-2018::13:24:54 ===
+node           : rabbit@asim-VirtualBox
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : M4PSGPLVzREFXjp/uvjttA==
+log            : /var/log/rabbitmq/rabbit@asim-VirtualBox.log
+sasl log       : /var/log/rabbitmq/rabbit@asim-VirtualBox-sasl.log
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@asim-VirtualBox
+
+=INFO REPORT==== 1-Nov-2018::13:24:55 ===
+Memory limit set to 3752MB of 9380MB total.
+
+=INFO REPORT==== 1-Nov-2018::13:24:55 ===
+Enabling free disk space monitoring
+
+=INFO REPORT==== 1-Nov-2018::13:24:55 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 1-Nov-2018::13:24:55 ===
+Limiting to approx 65436 file handles (58890 sockets)
+
+=INFO REPORT==== 1-Nov-2018::13:24:55 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 1-Nov-2018::13:24:55 ===
+Database directory at /var/lib/rabbitmq/mnesia/rabbit@asim-VirtualBox is empty. Initialising from scratch...
+
+=INFO REPORT==== 1-Nov-2018::13:24:55 ===
+Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+=INFO REPORT==== 1-Nov-2018::13:24:55 ===
+Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+=INFO REPORT==== 1-Nov-2018::13:24:55 ===
+Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+=INFO REPORT==== 1-Nov-2018::13:24:55 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 1-Nov-2018::13:24:55 ===
+Starting rabbit_node_monitor
+
+=INFO REPORT==== 1-Nov-2018::13:24:55 ===
+Adding vhost '/'
+
+=INFO REPORT==== 1-Nov-2018::13:24:55 ===
+Creating user 'guest'
+
+=INFO REPORT==== 1-Nov-2018::13:24:55 ===
+Setting user tags for user 'guest' to [administrator]
+
+=INFO REPORT==== 1-Nov-2018::13:24:55 ===
+Setting permissions for 'guest' in '/' to '.*', '.*', '.*'
+
+=INFO REPORT==== 1-Nov-2018::13:24:55 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 1-Nov-2018::13:24:55 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 1-Nov-2018::13:24:55 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 1-Nov-2018::13:24:55 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 1-Nov-2018::13:24:55 ===
+Server startup complete; 0 plugins started.
+
+=INFO REPORT==== 1-Nov-2018::13:25:46 ===
+RabbitMQ is asked to stop...
+
+=INFO REPORT==== 1-Nov-2018::13:25:46 ===
+Stopping RabbitMQ applications and their dependencies in the following order: 
+    rabbit
+    mnesia
+    rabbit_common
+    os_mon
+
+=INFO REPORT==== 1-Nov-2018::13:25:46 ===
+Stopping application 'rabbit'
+=INFO REPORT==== 1-Nov-2018::13:25:46 ===
+stopped TCP Listener on [::]:5672
+
+=INFO REPORT==== 1-Nov-2018::13:25:46 ===
+Stopping message store for directory '/var/lib/rabbitmq/mnesia/rabbit@asim-VirtualBox/msg_store_persistent'
+=INFO REPORT==== 1-Nov-2018::13:25:46 ===
+Message store for directory '/var/lib/rabbitmq/mnesia/rabbit@asim-VirtualBox/msg_store_persistent' is stopped
+=INFO REPORT==== 1-Nov-2018::13:25:46 ===
+Stopping message store for directory '/var/lib/rabbitmq/mnesia/rabbit@asim-VirtualBox/msg_store_transient'
+=INFO REPORT==== 1-Nov-2018::13:25:46 ===
+Message store for directory '/var/lib/rabbitmq/mnesia/rabbit@asim-VirtualBox/msg_store_transient' is stopped
+=INFO REPORT==== 1-Nov-2018::13:25:46 ===
+Stopping application 'mnesia'
+=INFO REPORT==== 1-Nov-2018::13:25:46 ===
+Stopping application 'rabbit_common'
+=INFO REPORT==== 1-Nov-2018::13:25:46 ===
+Stopping application 'os_mon'
+=INFO REPORT==== 1-Nov-2018::13:25:46 ===
+Successfully stopped RabbitMQ and its dependencies
+
+=INFO REPORT==== 1-Nov-2018::13:25:46 ===
+Halting Erlang VM with the following applications:
+    ranch
+    ssl
+    public_key
+    asn1
+    xmerl
+    crypto
+    compiler
+    syntax_tools
+    sasl
+    stdlib
+    kernel
+2018-11-01 13:51:34.436 [info] <0.7.0> Log file opened with Lager
+2018-11-01 13:51:35.318 [info] <0.7.0> upgrades: Backing up mnesia dir to "/var/lib/rabbitmq/mnesia/rabbit@asim-VirtualBox-upgrade-backup"
+2018-11-01 13:51:35.326 [info] <0.7.0> upgrades: Mnesia dir backed up to "/var/lib/rabbitmq/mnesia/rabbit@asim-VirtualBox-upgrade-backup"
+2018-11-01 13:51:35.327 [info] <0.7.0> mnesia upgrades: 7 to apply
+2018-11-01 13:51:35.406 [info] <0.7.0> mnesia upgrades: Applying rabbit_upgrade_functions:vhost_limits
+2018-11-01 13:51:35.406 [info] <0.7.0> Waiting for Mnesia tables for 30000 ms, 0 retries left
+2018-11-01 13:51:35.430 [info] <0.7.0> mnesia upgrades: Applying rabbit_upgrade_functions:slave_pids_pending_shutdown
+2018-11-01 13:51:35.430 [info] <0.7.0> Waiting for Mnesia tables for 30000 ms, 0 retries left
+2018-11-01 13:51:35.453 [info] <0.7.0> Waiting for Mnesia tables for 30000 ms, 0 retries left
+2018-11-01 13:51:35.480 [info] <0.7.0> mnesia upgrades: Applying rabbit_upgrade_functions:topic_permission
+2018-11-01 13:51:35.491 [info] <0.7.0> mnesia upgrades: Applying rabbit_upgrade_functions:operator_policies
+2018-11-01 13:51:35.491 [info] <0.7.0> Waiting for Mnesia tables for 30000 ms, 0 retries left
+2018-11-01 13:51:35.513 [info] <0.7.0> Waiting for Mnesia tables for 30000 ms, 0 retries left
+2018-11-01 13:51:35.538 [info] <0.7.0> Waiting for Mnesia tables for 30000 ms, 0 retries left
+2018-11-01 13:51:35.562 [info] <0.7.0> Waiting for Mnesia tables for 30000 ms, 0 retries left
+2018-11-01 13:51:35.589 [info] <0.7.0> mnesia upgrades: Applying rabbit_upgrade_functions:exchange_options
+2018-11-01 13:51:35.589 [info] <0.7.0> Waiting for Mnesia tables for 30000 ms, 0 retries left
+2018-11-01 13:51:35.614 [info] <0.7.0> Waiting for Mnesia tables for 30000 ms, 0 retries left
+2018-11-01 13:51:35.662 [info] <0.7.0> mnesia upgrades: Applying rabbit_upgrade_functions:queue_vhost_field
+2018-11-01 13:51:35.662 [info] <0.7.0> Waiting for Mnesia tables for 30000 ms, 0 retries left
+2018-11-01 13:51:35.678 [info] <0.7.0> Waiting for Mnesia tables for 30000 ms, 0 retries left
+2018-11-01 13:51:35.724 [info] <0.7.0> mnesia upgrades: Applying rabbit_upgrade_functions:queue_options
+2018-11-01 13:51:35.724 [info] <0.7.0> Waiting for Mnesia tables for 30000 ms, 0 retries left
+2018-11-01 13:51:35.743 [info] <0.7.0> Waiting for Mnesia tables for 30000 ms, 0 retries left
+2018-11-01 13:51:35.769 [info] <0.7.0> mnesia upgrades: All upgrades applied successfully
+2018-11-01 13:51:36.292 [info] <0.508.0> 
+ Starting RabbitMQ 3.7.8 on Erlang 21.1
+ Copyright (C) 2007-2018 Pivotal Software, Inc.
+ Licensed under the MPL.  See http://www.rabbitmq.com/
+2018-11-01 13:51:36.293 [info] <0.508.0> 
+ node           : rabbit@asim-VirtualBox
+ home dir       : /var/lib/rabbitmq
+ config file(s) : (none)
+ cookie hash    : M4PSGPLVzREFXjp/uvjttA==
+ log(s)         : /var/log/rabbitmq/rabbit@asim-VirtualBox.log
+                : /var/log/rabbitmq/rabbit@asim-VirtualBox_upgrade.log
+ database dir   : /var/lib/rabbitmq/mnesia/rabbit@asim-VirtualBox
+2018-11-01 13:51:37.986 [info] <0.516.0> Memory high watermark set to 3752 MiB (3934278451 bytes) of 9380 MiB (9835696128 bytes) total
+2018-11-01 13:51:37.990 [info] <0.518.0> Enabling free disk space monitoring
+2018-11-01 13:51:37.993 [info] <0.518.0> Disk free limit set to 50MB
+2018-11-01 13:51:37.995 [info] <0.521.0> Limiting to approx 32668 file handles (29399 sockets)
+2018-11-01 13:51:37.995 [info] <0.522.0> FHC read buffering:  OFF
+2018-11-01 13:51:37.995 [info] <0.522.0> FHC write buffering: ON
+2018-11-01 13:51:37.997 [info] <0.508.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2018-11-01 13:51:38.033 [info] <0.508.0> upgrades: Mnesia backup removed
+2018-11-01 13:51:38.033 [info] <0.508.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2018-11-01 13:51:38.033 [info] <0.508.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping registration.
+2018-11-01 13:51:38.034 [info] <0.508.0> Priority queues enabled, real BQ is rabbit_variable_queue
+2018-11-01 13:51:38.043 [info] <0.541.0> Starting rabbit_node_monitor
+2018-11-01 13:51:38.058 [info] <0.508.0> message_store upgrades: 1 to apply
+2018-11-01 13:51:38.058 [info] <0.508.0> message_store upgrades: Applying rabbit_variable_queue:move_messages_to_vhost_store
+2018-11-01 13:51:38.059 [info] <0.508.0> message_store upgrades: No durable queues found. Skipping message store migration
+2018-11-01 13:51:38.059 [info] <0.508.0> message_store upgrades: Removing the old message store data
+2018-11-01 13:51:38.060 [info] <0.508.0> message_store upgrades: All upgrades applied successfully
+2018-11-01 13:51:38.084 [info] <0.508.0> Management plugin: using rates mode 'basic'
+2018-11-01 13:51:38.086 [info] <0.573.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@asim-VirtualBox/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
+2018-11-01 13:51:38.095 [info] <0.573.0> Starting message stores for vhost '/'
+2018-11-01 13:51:38.095 [info] <0.577.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+2018-11-01 13:51:38.096 [info] <0.573.0> Started message store of type transient for vhost '/'
+2018-11-01 13:51:38.096 [info] <0.580.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+2018-11-01 13:51:38.097 [warning] <0.580.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
+2018-11-01 13:51:38.097 [info] <0.573.0> Started message store of type persistent for vhost '/'
+2018-11-01 13:51:38.101 [info] <0.616.0> started TCP Listener on [::]:5672
+2018-11-01 13:51:38.117 [info] <0.508.0> Setting up a table for connection tracking on this node: 'tracked_connection_on_node_rabbit@asim-VirtualBox'
+2018-11-01 13:51:38.130 [info] <0.508.0> Setting up a table for per-vhost connection counting on this node: 'tracked_connection_per_vhost_on_node_rabbit@asim-VirtualBox'
+2018-11-01 13:51:38.147 [info] <0.677.0> Management plugin started. Port: 15672
+2018-11-01 13:51:38.147 [info] <0.783.0> Statistics database started.
+2018-11-01 13:51:38.215 [notice] <0.113.0> Changed loghwm of /var/log/rabbitmq/rabbit@asim-VirtualBox.log to 50
+2018-11-01 13:51:38.654 [info] <0.7.0> Server startup complete; 3 plugins started.
+ * rabbitmq_management
+ * rabbitmq_web_dispatch
+ * rabbitmq_management_agent
+2018-11-01 13:52:20.647 [info] <0.797.0> RabbitMQ is asked to stop...
+2018-11-01 13:52:20.770 [info] <0.797.0> Stopping RabbitMQ applications and their dependencies in the following order:
+    rabbitmq_management
+    amqp_client
+    rabbitmq_web_dispatch
+    cowboy
+    cowlib
+    rabbitmq_management_agent
+    rabbit
+    mnesia
+    rabbit_common
+    os_mon
+2018-11-01 13:52:20.770 [info] <0.797.0> Stopping application 'rabbitmq_management'
+2018-11-01 13:52:20.772 [info] <0.42.0> Application rabbitmq_management exited with reason: stopped
+2018-11-01 13:52:20.772 [info] <0.797.0> Stopping application 'amqp_client'
+2018-11-01 13:52:20.773 [info] <0.42.0> Application amqp_client exited with reason: stopped
+2018-11-01 13:52:20.773 [info] <0.797.0> Stopping application 'rabbitmq_web_dispatch'
+2018-11-01 13:52:20.774 [info] <0.42.0> Application rabbitmq_web_dispatch exited with reason: stopped
+2018-11-01 13:52:20.774 [info] <0.797.0> Stopping application 'cowboy'
+2018-11-01 13:52:20.775 [info] <0.797.0> Stopping application 'cowlib'
+2018-11-01 13:52:20.775 [info] <0.42.0> Application cowboy exited with reason: stopped
+2018-11-01 13:52:20.775 [info] <0.42.0> Application cowlib exited with reason: stopped
+2018-11-01 13:52:20.775 [info] <0.797.0> Stopping application 'rabbitmq_management_agent'
+2018-11-01 13:52:20.776 [info] <0.42.0> Application rabbitmq_management_agent exited with reason: stopped
+2018-11-01 13:52:20.776 [info] <0.797.0> Stopping application 'rabbit'
+2018-11-01 13:52:20.776 [info] <0.508.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping unregistration.
+2018-11-01 13:52:20.777 [info] <0.616.0> stopped TCP Listener on [::]:5672
+2018-11-01 13:52:20.778 [info] <0.535.0> Closing all connections in vhost '/' on node 'rabbit@asim-VirtualBox' because the vhost is stopping
+2018-11-01 13:52:20.778 [info] <0.580.0> Stopping message store for directory '/var/lib/rabbitmq/mnesia/rabbit@asim-VirtualBox/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent'
+2018-11-01 13:52:20.787 [info] <0.580.0> Message store for directory '/var/lib/rabbitmq/mnesia/rabbit@asim-VirtualBox/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent' is stopped
+2018-11-01 13:52:20.787 [info] <0.577.0> Stopping message store for directory '/var/lib/rabbitmq/mnesia/rabbit@asim-VirtualBox/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient'
+2018-11-01 13:52:20.803 [info] <0.577.0> Message store for directory '/var/lib/rabbitmq/mnesia/rabbit@asim-VirtualBox/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient' is stopped
+2018-11-01 13:52:20.806 [info] <0.42.0> Application rabbit exited with reason: stopped
+2018-11-01 13:52:20.806 [info] <0.797.0> Stopping application 'mnesia'
+2018-11-01 13:52:20.810 [info] <0.42.0> Application mnesia exited with reason: stopped
+2018-11-01 13:52:20.810 [info] <0.797.0> Stopping application 'rabbit_common'
+2018-11-01 13:52:20.810 [info] <0.797.0> Stopping application 'os_mon'
+2018-11-01 13:52:20.810 [info] <0.42.0> Application rabbit_common exited with reason: stopped
+2018-11-01 13:52:20.812 [info] <0.42.0> Application os_mon exited with reason: stopped
+2018-11-01 13:52:20.812 [info] <0.797.0> Successfully stopped RabbitMQ and its dependencies
+2018-11-01 13:52:20.813 [info] <0.797.0> Halting Erlang VM with the following applications:
+    ranch_proxy_protocol
+    ranch
+    ssl
+    public_key
+    inets
+    xmerl
+    asn1
+    jsx
+    recon
+    crypto
+    lager
+    goldrush
+    compiler
+    syntax_tools
+    syslog
+    sasl
+    stdlib
+    kernel
+2018-11-01 13:56:45.866 [info] <0.7.0> Log file opened with Lager
+2018-11-01 13:56:47.224 [info] <0.294.0> 
+ Starting RabbitMQ 3.7.8 on Erlang 21.1
+ Copyright (C) 2007-2018 Pivotal Software, Inc.
+ Licensed under the MPL.  See http://www.rabbitmq.com/
+2018-11-01 13:56:47.225 [info] <0.294.0> 
+ node           : rabbit@asim-VirtualBox
+ home dir       : /var/lib/rabbitmq
+ config file(s) : (none)
+ cookie hash    : M4PSGPLVzREFXjp/uvjttA==
+ log(s)         : /var/log/rabbitmq/rabbit@asim-VirtualBox.log
+                : /var/log/rabbitmq/rabbit@asim-VirtualBox_upgrade.log
+ database dir   : /var/lib/rabbitmq/mnesia/rabbit@asim-VirtualBox
+2018-11-01 13:56:48.749 [info] <0.302.0> Memory high watermark set to 3752 MiB (3934278451 bytes) of 9380 MiB (9835696128 bytes) total
+2018-11-01 13:56:48.752 [info] <0.304.0> Enabling free disk space monitoring
+2018-11-01 13:56:48.752 [info] <0.304.0> Disk free limit set to 50MB
+2018-11-01 13:56:48.754 [info] <0.307.0> Limiting to approx 32668 file handles (29399 sockets)
+2018-11-01 13:56:48.754 [info] <0.308.0> FHC read buffering:  OFF
+2018-11-01 13:56:48.754 [info] <0.308.0> FHC write buffering: ON
+2018-11-01 13:56:48.756 [info] <0.294.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2018-11-01 13:56:48.794 [info] <0.294.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2018-11-01 13:56:48.794 [info] <0.294.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping registration.
+2018-11-01 13:56:48.794 [info] <0.294.0> Priority queues enabled, real BQ is rabbit_variable_queue
+2018-11-01 13:56:48.803 [info] <0.327.0> Starting rabbit_node_monitor
+2018-11-01 13:56:48.816 [info] <0.294.0> Management plugin: using rates mode 'basic'
+2018-11-01 13:56:48.817 [info] <0.359.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@asim-VirtualBox/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
+2018-11-01 13:56:48.826 [info] <0.359.0> Starting message stores for vhost '/'
+2018-11-01 13:56:48.826 [info] <0.363.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+2018-11-01 13:56:48.833 [info] <0.359.0> Started message store of type transient for vhost '/'
+2018-11-01 13:56:48.834 [info] <0.366.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+2018-11-01 13:56:48.835 [info] <0.359.0> Started message store of type persistent for vhost '/'
+2018-11-01 13:56:48.837 [info] <0.402.0> started TCP Listener on [::]:5672
+2018-11-01 13:56:48.838 [info] <0.294.0> Setting up a table for connection tracking on this node: 'tracked_connection_on_node_rabbit@asim-VirtualBox'
+2018-11-01 13:56:48.838 [info] <0.294.0> Setting up a table for per-vhost connection counting on this node: 'tracked_connection_per_vhost_on_node_rabbit@asim-VirtualBox'
+2018-11-01 13:56:48.854 [info] <0.453.0> Management plugin started. Port: 15672
+2018-11-01 13:56:48.854 [info] <0.559.0> Statistics database started.
+2018-11-01 13:56:48.918 [notice] <0.113.0> Changed loghwm of /var/log/rabbitmq/rabbit@asim-VirtualBox.log to 50
+2018-11-01 13:56:49.196 [info] <0.7.0> Server startup complete; 3 plugins started.
+ * rabbitmq_management
+ * rabbitmq_management_agent
+ * rabbitmq_web_dispatch
+2018-11-01 14:36:27.816 [info] <0.7.0> Log file opened with Lager
+2018-11-01 14:36:31.210 [info] <0.283.0> 
+ Starting RabbitMQ 3.7.8 on Erlang 21.1
+ Copyright (C) 2007-2018 Pivotal Software, Inc.
+ Licensed under the MPL.  See http://www.rabbitmq.com/
+2018-11-01 14:36:31.212 [info] <0.283.0> 
+ node           : rabbit@asim-VirtualBox
+ home dir       : /var/lib/rabbitmq
+ config file(s) : (none)
+ cookie hash    : M4PSGPLVzREFXjp/uvjttA==
+ log(s)         : /var/log/rabbitmq/rabbit@asim-VirtualBox.log
+                : /var/log/rabbitmq/rabbit@asim-VirtualBox_upgrade.log
+ database dir   : /var/lib/rabbitmq/mnesia/rabbit@asim-VirtualBox
+2018-11-01 14:36:33.502 [info] <0.291.0> Memory high watermark set to 3752 MiB (3934278451 bytes) of 9380 MiB (9835696128 bytes) total
+2018-11-01 14:36:33.510 [info] <0.293.0> Enabling free disk space monitoring
+2018-11-01 14:36:33.510 [info] <0.293.0> Disk free limit set to 50MB
+2018-11-01 14:36:33.512 [info] <0.296.0> Limiting to approx 32668 file handles (29399 sockets)
+2018-11-01 14:36:33.512 [info] <0.297.0> FHC read buffering:  OFF
+2018-11-01 14:36:33.512 [info] <0.297.0> FHC write buffering: ON
+2018-11-01 14:36:33.518 [info] <0.283.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2018-11-01 14:36:33.543 [info] <0.283.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2018-11-01 14:36:33.543 [info] <0.283.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping registration.
+2018-11-01 14:36:33.543 [info] <0.283.0> Priority queues enabled, real BQ is rabbit_variable_queue
+2018-11-01 14:36:33.552 [info] <0.316.0> Starting rabbit_node_monitor
+2018-11-01 14:36:33.567 [info] <0.283.0> Management plugin: using rates mode 'basic'
+2018-11-01 14:36:33.568 [info] <0.348.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@asim-VirtualBox/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
+2018-11-01 14:36:33.587 [info] <0.348.0> Starting message stores for vhost '/'
+2018-11-01 14:36:33.587 [info] <0.352.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+2018-11-01 14:36:33.589 [info] <0.348.0> Started message store of type transient for vhost '/'
+2018-11-01 14:36:33.589 [info] <0.355.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+2018-11-01 14:36:33.590 [warning] <0.355.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
+2018-11-01 14:36:33.593 [info] <0.348.0> Started message store of type persistent for vhost '/'
+2018-11-01 14:36:33.595 [info] <0.391.0> started TCP Listener on [::]:5672
+2018-11-01 14:36:33.595 [info] <0.283.0> Setting up a table for connection tracking on this node: 'tracked_connection_on_node_rabbit@asim-VirtualBox'
+2018-11-01 14:36:33.595 [info] <0.283.0> Setting up a table for per-vhost connection counting on this node: 'tracked_connection_per_vhost_on_node_rabbit@asim-VirtualBox'
+2018-11-01 14:36:33.613 [info] <0.442.0> Management plugin started. Port: 15672
+2018-11-01 14:36:33.613 [info] <0.548.0> Statistics database started.
+2018-11-01 14:36:33.663 [notice] <0.113.0> Changed loghwm of /var/log/rabbitmq/rabbit@asim-VirtualBox.log to 50
+2018-11-01 14:36:33.911 [info] <0.7.0> Server startup complete; 3 plugins started.
+ * rabbitmq_management
+ * rabbitmq_management_agent
+ * rabbitmq_web_dispatch

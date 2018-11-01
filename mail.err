@@ -1,0 +1,4 @@
+Oct 31 18:31:17 asim-VirtualBox postfix/sendmail[20550]: fatal: open /etc/postfix/main.cf: No such file or directory
+Oct 31 18:32:57 asim-VirtualBox postfix/sendmail[20732]: fatal: open /etc/postfix/main.cf: No such file or directory
+Nov  1 18:04:32 asim-VirtualBox postfix/sendmail[21540]: fatal: open /etc/postfix/main.cf: No such file or directory
+Nov  1 18:29:32 asim-VirtualBox postfix/sendmail[23013]: fatal: open /etc/postfix/main.cf: No such file or directory
